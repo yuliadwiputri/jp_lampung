@@ -90,15 +90,8 @@
                                 <!-- /.nav-second-level -->
                             </li>
                             <li class="active">
-                                <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                                <ul class="nav nav-second-level">
-                                    <li>
-                                        <a class="active" href="blank.html">Blank Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html">Login Page</a>
-                                    </li>
-                                </ul>
+                                <a href="<?= base_url('adminJP/logout')?>"><i class="fa fa-sign-out"></i> Logout</a>
+                                
                                 <!-- /.nav-second-level -->
                             </li>
                         </ul>

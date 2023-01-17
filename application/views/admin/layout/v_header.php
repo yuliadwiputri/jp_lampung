@@ -22,7 +22,7 @@
             </li>
             <li class="">
                 <a class=""  href="#">
-                    <i class="fa fa-user fa-fw"></i> secondtruth <b class=""></b>
+                    <i class="fa fa-user fa-fw"></i> <?=$this->session->userdata('nama_user');?> <b class=""></b>
                 </a>
                
             </li>
