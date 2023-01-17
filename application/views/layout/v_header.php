@@ -25,7 +25,7 @@
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
+									<div class="login_button"><a href="<?= base_url('adminJP') ?>">Register or Login</a></div>
 								</div>
 							</div>
 						</div>
