@@ -6,6 +6,7 @@
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container">
 								<a href="#">
+									<img src="template\img\logo_jp_new.jpg" alt="logo_jp" height="90px" width="90px">
 									<div class="logo_text">JP<span> Lampung</span></div>
 								</a>
 							</div>
@@ -15,26 +16,28 @@
 									
 									<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Tentang Kami
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Sejarah</a>
+          <a class="dropdown-item" href="#">Visi & misi</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Profil</a>
+          <a class="dropdown-item" href="#">Profil Management</a>
+          <a class="dropdown-item" href="#">Struktur Organisasi</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Penghargaan Perusahaan </a>
         </div>
       </li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="courses.html">Courses</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="#">Page</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="produk.html">Produk</a></li>
+									<li><a href="jrpsyariah.html">Layanan</a></li>
+									<li><a href="jrpsyariah.html">JRP Syariah</a></li>
 								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
 								<!-- Hamburger -->
 
-								<div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+								<!-- <div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div> -->
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>

@@ -272,7 +272,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #14bdee;
+	background: #08347c ;
 }
 .header.scrolled .top_bar
 {
@@ -397,7 +397,7 @@ section
 }
 .logo_text span
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .header.scrolled .logo
 {
@@ -446,7 +446,7 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .main_nav li.active::after
 {
@@ -456,7 +456,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #14bdee;
+	background: #08347c;
 	content: '';
 }
 .search_button
@@ -483,7 +483,7 @@ section
 .search_button:hover i,
 .shopping_cart:hover i
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .header_search_form
 {
@@ -497,7 +497,7 @@ section
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	background: #14bdee;
+	background: #08347c;
 	z-index: -1;
 	opacity: 0;
 	-webkit-transition: all 400ms ease;
@@ -561,7 +561,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #14bdee;
+	color: #08347c;
 }
 
 /*********************************
@@ -659,7 +659,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .menu .search
 {
@@ -890,7 +890,7 @@ section
 {
 	width: 120px;
 	height: 46px;
-	background: #14bdee;
+	background: #08347c;
 	border: none;
 	outline: none;
 	border-radius: 3px;
@@ -933,7 +933,7 @@ section
 }
 .home_slider_nav:hover
 {
-	background: #14bdee;
+	background: #08347c;
 }
 
 /*********************************
@@ -1031,7 +1031,7 @@ section
 }
 .course_title a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .course_teacher
 {
@@ -1076,7 +1076,7 @@ section
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	font-weight: 700;
-	color: #14bdee;
+	color: #08347c;
 }
 .course_price span
 {
@@ -1092,7 +1092,7 @@ section
 	width: 210px;
 	height: 46px;
 	border-radius: 3px;
-	background: #14bdee;
+	background: #08347c;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 41px;
@@ -1182,7 +1182,7 @@ section
 	font-size: 42px;
 	font-weight: 700;
 	line-height: 0.75;
-	color: #14bdee;
+	color: #08347c;
 }
 .milestone_text
 {
@@ -1300,7 +1300,7 @@ section
 	text-transform: uppercase;
 	border: none;
 	outline: none;
-	background: #14bdee;
+	background: #08347c;
 	cursor: pointer;
 	margin-top: 30px;
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.15);
@@ -1371,7 +1371,7 @@ section
 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
-	color: #14bdee;
+	color: #08347c;
 	font-weight: 700;
 	line-height: 0.75;
 }
@@ -1379,14 +1379,14 @@ section
 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
-	color: #14bdee;
+	color: #08347c;
 	font-weight: 400;
 	line-height: 0.75;
 	margin-top: 9px;
 }
 .event:hover .event_date > div
 {
-	background: #14bdee;
+	background: #08347c;
 }
 .event:hover .event_day,
 .event:hover .event_month
@@ -1412,7 +1412,7 @@ section
 }
 .event_title a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .event_info_container
 {
@@ -1515,7 +1515,7 @@ section
 }
 .team_title a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .team_subtitle
 {
@@ -1548,7 +1548,7 @@ section
 }
 .social_list ul li:hover a i
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .team_col .team_item
 {
@@ -1618,7 +1618,7 @@ section
 }
 .news_post_large_title a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .news_post_meta
 {
@@ -1651,7 +1651,7 @@ section
 }
 .news_post_meta ul li a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .news_post_text
 {
@@ -1676,7 +1676,7 @@ section
 }
 .news_post_link a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .news_posts_small
 {
@@ -1706,7 +1706,7 @@ section
 }
 .news_post_small_title a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 
 /*********************************
@@ -1809,7 +1809,7 @@ section
 	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #14bdee;
+	color: #08347c;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 }
@@ -1856,7 +1856,7 @@ section
 }
 .footer_logo_text span
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .footer_title
 {
@@ -1912,7 +1912,7 @@ section
 }
 .footer_social ul li:hover
 {
-	background: #14bdee;
+	background: #08347c;
 }
 .footer_contact
 {
@@ -1962,7 +1962,7 @@ section
 }
 .footer_links_container ul li a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .footer_mobile
 {
@@ -2002,7 +2002,7 @@ section
 }
 .cr_text a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
 .cr_list li:not(:last-child)
 {
@@ -2020,5 +2020,5 @@ section
 }
 .cr_list li a:hover
 {
-	color: #14bdee;
+	color: #08347c;
 }
