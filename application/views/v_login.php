@@ -58,11 +58,7 @@
                             <div class="form-group">
                                 <input class="form-control" placeholder="Password" name="password" type="password" required value="">
                             </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input name="remember" type="checkbox" value="Remember Me">Remember Me
-                                </label>
-                            </div>
+                           
                             <div class="text-center">
                                 <button type="submit" class="btn btn-success btn-block">Login</button>
                             </div>

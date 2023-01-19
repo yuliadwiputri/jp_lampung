@@ -17,8 +17,19 @@
         <!-- Metis Menu Plugin JavaScript -->
         <script src="<?= base_url() ?>template/back-end/js/metisMenu.min.js"></script>
 
+        
+        <!-- DataTables JavaScript -->
+        <script src="<?= base_url() ?>template/back-end/js/dataTables/jquery.dataTables.min.js"></script>
+        <script src="<?= base_url() ?>template/back-end/js/dataTables/dataTables.bootstrap.min.js"></script>
+
         <!-- Custom Theme JavaScript -->
         <script src="<?= base_url() ?>template/back-end/js/startmin.js"></script>
-
+        <script>
+            $(document).ready(function() {
+                $('#dataTables-example').DataTable({
+                        responsive: true
+                });
+            });
+        </script>
     </body>
 </html>

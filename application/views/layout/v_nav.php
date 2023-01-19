@@ -30,7 +30,7 @@
         </div>
       </li>
 									<li><a href="produk.html">Produk</a></li>
-									<li><a href="jrpsyariah.html">Layanan</a></li>
+									<li><a href="jrpsyariah.html">Berita</a></li>
 									<li><a href="jrpsyariah.html">JRP Syariah</a></li>
 								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
