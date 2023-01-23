@@ -23,7 +23,8 @@
 11. Team
 12. News
 13. Newsletter
-14. Footer
+14. Visi Misi
+15. Footer
 
 
 
@@ -1815,11 +1816,20 @@ section
 }
 
 /*********************************
-14. Footer
+14. Visi & Misi
+*********************************/
+.visi, .misi{
+	font-size: 20px;
+	color: #e40d2b;
+}
+
+/*********************************
+15. Footer
 *********************************/
 
 .footer
 {
+	position: fixed;
 	display: block;
 	position: relative;
 	width: 100%;
