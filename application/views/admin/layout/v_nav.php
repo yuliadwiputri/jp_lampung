@@ -11,7 +11,10 @@
                                 <a href="<?= base_url('profil') ?>"><i class="fa fa-users fa-fw"></i> Data Profil Manajemen</a>
                             </li>
                             <li class="active">
-                                <a href="<?= base_url('struktur') ?>"><i class="fa fa-sitemap fa-fw"></i> Struktur Organisasi</a>
+                                <a href="<?= base_url('JP_struktur') ?>"><i class="fa fa-sitemap fa-fw"></i> Struktur Organisasi</a>
+                            </li>
+                            <li class="active">
+                                <a href="<?= base_url('berita') ?>"><i class="fa fa-newspaper-o fa-fw"></i> Berita</a>
                             </li>
 
                            

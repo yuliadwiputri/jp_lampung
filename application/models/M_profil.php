@@ -15,6 +15,12 @@ public function add($data){
         $this->db->insert('tbl_profil', $data);
 }
 
+public function detail($id_profil){
+    $this->db->select('*');
+    $this->db->from('tbl_profil');
+    $this->db->where('id_profil',$id_profil);
+    return $this->db->get()->row();
+}
 public function edit($data){
     $this->db->where('id_profil', $data['id_profil']);
     $this->db->update('tbl_profil',$data);

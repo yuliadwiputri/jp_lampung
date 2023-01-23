@@ -16,11 +16,13 @@ class User_login
 public function login($username,$password){
 $cek=$this->ci->m_login->login($username,$password);
 if ($cek){
+  $id_user= $cek->id_user;
     $username= $cek->username;
     $nama_user = $cek->nama_user;
     $level= $cek->level;
 
     //session
+    $this->ci->session->set_userdata('id_user',$id_user);
     $this->ci->session->set_userdata('username',$username);
     $this->ci->session->set_userdata('nama_user',$nama_user);
     $this->ci->session->set_userdata('level',$level);
