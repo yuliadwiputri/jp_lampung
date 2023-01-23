@@ -28,22 +28,22 @@ if ($cek){
 
 
 }else{
-    $this->ci->session->set_flashdata('pesan','Username atau Password salah.');
+    $this->ci->session->set_flashdata('pesan','Username Atau Password Anda Salah.');
 redirect('adminJP');
     
 }
 }
   public function cek_login(){
     if($this->ci->session->userdata('username')==""){
-        $this->ci->session->set_flashdata('pesan','anda blm login');
+        $this->ci->session->set_flashdata('pesan','Silakan Login Untuk Mengakses Sistem');
         redirect('adminJP');
-
   }} 
+  
   public function logout(){
     $this->ci->session->unset_userdata('username');
     $this->ci->session->unset_userdata('nama_user');
     $this->ci->session->unset_userdata('level');
-    $this->ci->session->set_flashdata('pesan','anda logout');
+    $this->ci->session->set_flashdata('pesan','Logout Berhasil');
     redirect('adminJP');
   }
 
