@@ -35,5 +35,22 @@
 <script>
 	initSample();
 </script>
+
+<script>
+    window.onload=function(){
+        CKEDITOR.replace('edit1');
+        CKEDITOR.replace('editor3');
+        CKEDITOR.replace('editor4');
+        CKEDITOR.replace('editor5');
+        CKEDITOR.replace('editor6');
+        CKEDITOR.replace('editor7');
+        CKEDITOR.replace('editor8');
+        CKEDITOR.replace('editor9');
+        CKEDITOR.replace('editor10');
+        CKEDITOR.replace('editor11');
+        CKEDITOR.replace('editor12');
+        CKEDITOR.replace('editor13');
+    }
+</script>
     </body>
 </html>

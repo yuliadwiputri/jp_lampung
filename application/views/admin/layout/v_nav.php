@@ -5,9 +5,9 @@
                         <ul class="nav" id="side-menu">
                           
                             <li class="active">
-                                <a href="<?= base_url('admin') ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                                <a href="<?= base_url('carousel') ?>"><i class="fa fa-dashboard fa-fw"></i> Carousel</a>
                             </li>
-                            <li class="active">
+                            <!-- <li class="active">
                                 <a href="<?= base_url('profil') ?>"><i class="fa fa-users fa-fw"></i> Data Profil Manajemen</a>
                             </li>
                             <li class="active">
@@ -15,6 +15,36 @@
                             </li>
                             <li class="active">
                                 <a href="<?= base_url('berita') ?>"><i class="fa fa-newspaper-o fa-fw"></i> Berita</a>
+                            </li> -->
+                            <li>
+                                <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> About Us<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="<?= base_url('sejarah') ?>">Sejarah </a>
+                                    </li>
+                                    <li>
+                                        <a href="<?= base_url('visiMisi') ?>">Visi & Misi</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                             <li>
+                                <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> Produk<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="<?= base_url('jpAstor') ?>">JP-ASTOR</a>
+                                    </li>
+                                      <li>
+                                        <a href="<?= base_url('jpAspri') ?>">JP-ASPRI</a>
+                                    </li>
+                                      <li>
+                                        <a href="<?= base_url('jpBonding') ?>">JP-BONDING</a>
+                                    </li>
+                                      <li>
+                                        <a href="<?= base_url('jpGraha') ?>">JP-GRAHA</a>
+                                    </li>
+                                  
+                                </ul>
                             </li>
 
                            
