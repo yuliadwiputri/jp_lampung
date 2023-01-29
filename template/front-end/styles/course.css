@@ -120,7 +120,7 @@ p::selection
 	
 }
 h1{font-size: 48px;}
-h2{font-size: 36px;}
+h2{font-size: 24px;}
 h3{font-size: 24px;}
 h4{font-size: 18px;}
 h5{font-size: 14px;}
@@ -378,7 +378,7 @@ section
 .logo_text
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 0.75;
 	color: #384158;
@@ -821,7 +821,7 @@ section
 .course_title
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #384158;
 }
@@ -1706,7 +1706,7 @@ section
 .footer_logo_text
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 0.75;
 	color: #FFFFFF;
