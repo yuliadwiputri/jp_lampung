@@ -45,11 +45,36 @@ class User extends CI_Controller
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
-    public function produk()
+    // Produk 
+    public function astor()
     {
         $data = array(
-            'title' => 'Produk | Jasa Raharja Lampung',
-            'isi' => 'user/v_produk'
+            'title' => 'ASTOR | Jasa Raharja Lampung',
+            'isi' => 'user/v_astor'
+        );
+        $this->load->view('layout/v_wrapper', $data, FALSE);
+    }
+    public function aspri()
+    {
+        $data = array(
+            'title' => 'ASPRI | Jasa Raharja Lampung',
+            'isi' => 'user/v_aspri'
+        );
+        $this->load->view('layout/v_wrapper', $data, FALSE);
+    }
+    public function bonding()
+    {
+        $data = array(
+            'title' => 'BONDING | Jasa Raharja Lampung',
+            'isi' => 'user/v_bonding'
+        );
+        $this->load->view('layout/v_wrapper', $data, FALSE);
+    }
+    public function graha()
+    {
+        $data = array(
+            'title' => 'GRAHA | Jasa Raharja Lampung',
+            'isi' => 'user/v_graha'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }

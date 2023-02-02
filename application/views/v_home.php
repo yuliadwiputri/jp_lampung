@@ -13,25 +13,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col text-center">
-                                <div class="home_slider_title">The Premium System Education</div>
-                                <div class="home_slider_subtitle">Future Of Education Technology</div>
+                                <div class="home_slider_title"> <span>Jasa Raharja</span> Putera</div>
+                                <div class="home_slider_subtitle">Branch Office Bandar Lampung</div>
                                 <div class="home_slider_form_container">
-                                    <form action="#" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-                                        <div class="d-flex flex-row align-items-center justify-content-start">
-                                            <input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Category Courses</option>
-                                                <option>Category</option>
-                                                <option>Category</option>
-                                            </select>
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Select Price Type</option>
-                                                <option>Price Type</option>
-                                                <option>Price Type</option>
-                                            </select>
-                                        </div>
-                                        <button type="submit" class="home_search_button">search</button>
-                                    </form>
+
                                 </div>
                             </div>
                         </div>
@@ -46,25 +31,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col text-center">
-                                <div class="home_slider_title">The Premium System Education</div>
-                                <div class="home_slider_subtitle">Future Of Education Technology</div>
+                                <div class="home_slider_title"> <span>Jasa Raharja</span> Putera</div>
+                                <div class="home_slider_subtitle">Branch Office Bandar Lampung</div>
                                 <div class="home_slider_form_container">
-                                    <form action="#" id="home_search_form_2" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-                                        <div class="d-flex flex-row align-items-center justify-content-start">
-                                            <input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Category Courses</option>
-                                                <option>Category</option>
-                                                <option>Category</option>
-                                            </select>
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Select Price Type</option>
-                                                <option>Price Type</option>
-                                                <option>Price Type</option>
-                                            </select>
-                                        </div>
-                                        <button type="submit" class="home_search_button">search</button>
-                                    </form>
+
                                 </div>
                             </div>
                         </div>
@@ -79,25 +49,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col text-center">
-                                <div class="home_slider_title">The Premium System Education</div>
-                                <div class="home_slider_subtitle">Future Of Education Technology</div>
+                                <div class="logo_text"> <span>Jasa Raharja</span> Putera</div>
+                                <div class="home_slider_subtitle">Branch Office Bandar Lampung</div>
                                 <div class="home_slider_form_container">
-                                    <form action="#" id="home_search_form_3" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-                                        <div class="d-flex flex-row align-items-center justify-content-start">
-                                            <input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Category Courses</option>
-                                                <option>Category</option>
-                                                <option>Category</option>
-                                            </select>
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Select Price Type</option>
-                                                <option>Price Type</option>
-                                                <option>Price Type</option>
-                                            </select>
-                                        </div>
-                                        <button type="submit" class="home_search_button">search</button>
-                                    </form>
+
                                 </div>
                             </div>
                         </div>
@@ -121,59 +76,79 @@
         <div class="row">
             <div class="col">
                 <div class="section_title_container text-center">
-                    <h2 class="section_title">Welcome To Unicat E-Learning</h2>
+                    <h2 class="section_title">Welcome To Jasa Raharja Putera</h2>
                     <div class="section_subtitle">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p>
+                        <h4>Office Branch Bandar Lampung</h4>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row features_row">
-
             <!-- Features Item -->
-            <div class="col-lg-3 feature_col">
+            <div class="border col-lg-6 feature_col">
                 <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="images/icon_1.png" alt=""></div>
-                    <h3 class="feature_title">The Experts</h3>
+                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_astor.png" alt=""></div>
+                    <h3 class="feature_title">Asuransi Kendaraan Bermotor</h3>
                     <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>JP-ASTOR adalah asuransi kendaraan yang dapat menjamin resiko kerusakan dan atau kehilangan kendaraan.</p>
                     </div>
+                    <a href="<?= base_url('User/astor') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
             </div>
 
             <!-- Features Item -->
-            <div class="col-lg-3 feature_col">
+            <div class="border col-lg-6 feature_col">
                 <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template/front-end/images/icon_2.png" alt=""></div>
-                    <h3 class="feature_title">Book & Library</h3>
+                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_aspri.png" style="width: 100px; height:100px;"></div>
+                    <h3 class="feature_title">Asuransi Kecelakaan Diri</h3>
                     <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>JP-ASPRI adalah solusi yang tepat untuk memberikan perlindungan pribadi bagi Anda, orang-orang yang Anda sayangi.</p>
                     </div>
+                    <a href="<?= base_url('User/aspri') ?>"><b><u>Lihat Selengkapnya</u></b></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row features_row">
+            <!-- Features Item -->
+            <div class="border col-lg-6 feature_col">
+                <div class="feature text-center trans_400">
+                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_graha.png" style="width: 100px; height:100px;"></div>
+                    <h3 class="feature_title">Asuransi Kebakaran (Properti)</h3>
+                    <div class="feature_text">
+                        <p>JP-GRAHA adalah pilihan tepat untuk produk asuransi asset bangunan Anda dan harta benda didalamnya.</p>
+                    </div>
+                    <a href="<?= base_url('User/graha') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
             </div>
 
             <!-- Features Item -->
-            <div class="col-lg-3 feature_col">
+            <div class="border col-lg-6 feature_col">
                 <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template/front-end/images/icon_3.png" alt=""></div>
-                    <h3 class="feature_title">Best Courses</h3>
+                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_bonding.png" style="width: 100px; height:100px;"></div>
+                    <h3 class="feature_title">Suretyship</h3>
                     <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>JP-BONDING Pelopor Surety Bond yang memberikan jaminan dengan standar kualitas internasional bersertifikasi ISO 9001:2000.</p>
                     </div>
+                    <a href="<?= base_url('User/bonding') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
 
-            <!-- Features Item -->
-            <div class="col-lg-3 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template/front-end/images/icon_4.png" alt=""></div>
-                    <h3 class="feature_title">Award & Reward</h3>
-                    <div class="feature_text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="section_title_container">
+                <h2 class="section_title">CORE VALUE</h2>
+                <div class="section_subtitle">
+                    <h4>Office Branch Bandar Lampung</h4>
                 </div>
             </div>
-
+        </div>
+        <div class="col">
+            <div class="vr">HALO</div>
         </div>
     </div>
 </div>
