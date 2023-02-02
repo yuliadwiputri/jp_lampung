@@ -860,10 +860,10 @@ section
 {
 	margin-top: 22px;
 }
-.about_item_title a
+.about_item_title 
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
+	font-size: 28px;
 	font-weight: 700;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
@@ -878,6 +878,7 @@ section
 }
 .about_item_text
 {
+	font-size: 12px;
 	margin-top: 12px;
 }
 .about_item_text
@@ -916,7 +917,7 @@ section
 }
 .elements_accordions
 {
-	
+
 }
 .accordion_container
 {
