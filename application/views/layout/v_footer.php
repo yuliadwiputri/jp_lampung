@@ -14,18 +14,19 @@
 							<div class="footer_section footer_about" id="footer">
 								<div class="footer_logo_container">
 									<a href="#">
-										<div class="footer_logo_text">JP<span>Lampung</span></div>
+										<div class="footer_logo_text">Jasa Raharja<span> Putera</span></div>
 									</a>
 								</div>
 								<div class="footer_about_text">
-									<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+									<p>Branch Office Bandar Lampung</p>
 								</div>
 								<div class="footer_social">
 									<ul>
-										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
 										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.instagram.com/jrp_branch_bandarlampung/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.youtube.com/@jrp_lampung5849" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+										<!-- <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
 									</ul>
 								</div>
 							</div>
@@ -39,9 +40,9 @@
 								<div class="footer_title">Contact Us</div>
 								<div class="footer_contact_info">
 									<ul>
-										<li>Email: Info.deercreative@gmail.com</li>
-										<li>Phone: +(88) 111 555 666</li>
-										<li>40 Baria Sreet 133/2 New York City, United States</li>
+										<li>Email: lampung@jasaraharja-putera.co.id</li>
+										<li>Tel: 07218014081</li>
+										<li>Jl. Diponegoro No.59 B-C, Sumur Batu, Kec. Tlk. Betung Utara, Kota Bandar Lampung, Lampung 35212</li>
 									</ul>
 								</div>
 							</div>
@@ -51,8 +52,23 @@
 						<div class="col-lg-3 footer_col">
 
 							<!-- Footer links -->
-							<div class="footer_section footer_links">
+							<!-- <div class="footer_section footer_links">
 								<div class="footer_title">Contact Us</div>
+								<div class="footer_links_container">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="about.html">About</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<li><a href="#">Features</a></li>
+										<li><a href="courses.html">Courses</a></li>
+										<li><a href="#">Events</a></li>
+										<li><a href="#">Gallery</a></li>
+										<li><a href="#">FAQs</a></li>
+									</ul>
+								</div>
+							</div> -->
+							<div class="footer_section footer_links">
+								<div class="footer_title" style="line-height: 1em;">Unit Layaran Bakauheni</div>
 								<div class="footer_links_container">
 									<ul>
 										<li><a href="index.html">Home</a></li>
@@ -75,8 +91,8 @@
 							<div class="footer_section footer_mobile">
 								<div class="footer_title">Mobile</div>
 								<div class="footer_mobile_content">
-									<div class="footer_image"><a href="#"><img src="<?= base_url() ?>template/front-end/images/mobile_1.png" alt=""></a></div>
-									<div class="footer_image"><a href="#"><img src="<?= base_url() ?>template/front-end/images/mobile_2.png" alt=""></a></div>
+									<div class="footer_image"><a href="https://play.google.com/store/apps/details?id=id.co.jasaraharjaputera.smartinsurance.jpcustomer&gl=US" target="_blank"><img src="<?= base_url() ?>template/front-end/images/mobile_1.png" alt=""></a></div>
+									<div class="footer_image"><a href="https://apps.apple.com/id/app/ezurance-smart-customer/id1603040828" target="_blank"><img src="<?= base_url() ?>template/front-end/images/mobile_2.png" alt=""></a></div>
 								</div>
 							</div>
 

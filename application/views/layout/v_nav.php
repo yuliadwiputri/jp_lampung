@@ -24,11 +24,11 @@
 												<a class="dropdown-item" href="<?= base_url('User/sejarah') ?>">Sejarah</a>
 												<a class="dropdown-item" href="<?= base_url('User/visiMisi') ?>">Visi & misi</a>
 												<div class="dropdown-divider"></div>
-												<a class="dropdown-item" href="#">Profil</a>
+												<!-- <a class="dropdown-item" href="#">Profil</a>
 												<a class="dropdown-item" href="#">Profil Management</a>
 												<a class="dropdown-item" href="<?= base_url('user/strukturOrganisasi') ?>">Struktur Organisasi</a>
 												<div class="dropdown-divider"></div>
-												<a class="dropdown-item" href="<?= base_url('User/penghargaan') ?>">Penghargaan Perusahaan </a>
+												<a class="dropdown-item" href="<?= base_url('User/penghargaan') ?>">Penghargaan Perusahaan </a> -->
 											</div>
 										</li>
 										<li class="nav-item dropdown">
