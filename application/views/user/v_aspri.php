@@ -54,12 +54,12 @@
 
             <div class="container">
                 <center>
-                    <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
+                    <hr class="style5" style="border-top: 5px solid #08347c;" width="100px">
                     <br>
-                    <h4 class="section_title">DENGAN JP-ASPRI ANDA DAPAT MEMBERIKA PERLINDUNGAN 24 JAM NON-STOP</h4>
-                    <h4 class="section_title">BAGI KELUARGA ANDA, REKAN-REKAN ANDA DAN KARYAWAN ANDA</h4>
-                    <h4 class="section_title">DARI RESIKO KECELAKAAN YANG DAPAT TERJADI KAPAN DAN DIMANAPUN BERADA.
-                </center>
+                    <h4 class="section_title" style=" line-height: 1.7em;">DENGAN JP-ASPRI ANDA DAPAT MEMBERIKA PERLINDUNGAN 24 JAM NON-STOP</h4>
+                    <h4 class="section_title" style=" line-height: 1.7em;">BAGI KELUARGA ANDA, REKAN-REKAN ANDA DAN KARYAWAN ANDA</h4>
+                    <h4 class="section_title" style=" line-height: 1.7em;">DARI RESIKO KECELAKAAN YANG DAPAT TERJADI KAPAN DAN DIMANAPUN BERADA.
+                </center><br><br>
 
                 <div class="row">
                     <div class="col">
@@ -129,14 +129,14 @@
                 <!-- Flip Card -->
                 <div class="row">
                     <div class="col">
-                        <div class="flip-card" style="width: 500px;">
+                        <div class="flip-card" style="width: 500px; height:400px">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front" style="background-image: url('https://s25.postimg.cc/frbd9towf/cta-2.png');">
                                     <img src="<?= base_url('template\img\shield.png') ?>" alt="shield" style="width: 80px; height:80px" class="mb-3">
                                     <h3>KELEBIHAN JP-ASPRI</h3>
                                     <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                                 </div>
-                                <div class="flip-card-back">
+                                <div class="flip-card-back text-left" style="line-height: 2em;">
                                     <ul style="list-style-type:circle" class="p-5">
                                         <li>Proses PERMOHONAN SANTUNAN SEDERHANA </li>
                                         <li>Mendapat JAMINAN GANDA, bila kecelakaan yang terjadi juga dalam ruang lingkup Jaminan kecelakaan Lalu Lintas Jalan sesuai UU No. 33 & 34 Tahun 1964.</li>
@@ -149,14 +149,14 @@
                         </div>
                     </div><br><br>
                     <div class="col">
-                        <div class="flip-card" style="width: 500px;">
+                        <div class="flip-card" style="width: 500px; height:400px">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front" style="background-image: url('https://s25.postimg.cc/frbd9towf/cta-2.png');">
                                     <img src="<?= base_url('template\img\info.png') ?>" alt="shield" style="width: 80px; height:80px" class="mb-3">
                                     <h3>KECELAKAAN YANG TIDAK DIJAMIN</h3>
                                     <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                                 </div>
-                                <div class="flip-card-back">
+                                <div class="flip-card-back text-left" style="line-height: 2em;">
                                     <ul style="list-style-type:circle" class="p-4">
                                         <li>Tertanggung turut serta dalam kegiatan olahraga berbahaya seperti tinju, Gulat, Karate, Judo, Arung Jeram, Diving, Snorkeling, Terjun Payung, Mendaki Gunung, Berburu, turut serta dalam perlombaan/ketangkasan. </li>
                                         <li>Tertanggung dengan sengaja melakukan kejahatan atau turut serta dalam kejahatan, huruhara, penggunaan obat terlarang, mabok,bunuh diri.</li>

@@ -63,7 +63,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>BID BOND</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat pengunduran diri </li>
@@ -83,7 +83,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>MAINTENANCE BOND</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat tuntutan dari oblige </li>
@@ -102,7 +102,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>PERFORMANCE BOND</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat tuntutan dari oblige </li>
@@ -124,7 +124,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>ADVANCE PAYMENT BOND</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat tuntutan dari oblige </li>
@@ -145,7 +145,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>CUSTOM BOND</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat tuntutan dari Bea Cukai </li>

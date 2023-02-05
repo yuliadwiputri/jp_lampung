@@ -175,7 +175,7 @@
                     <div class="col">
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded">
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Tertanggung sesegera mungkin melaporkan/menyampaikan keterangan tertulis (sesuai PSKI) mengenai kerugian yang terjadi dengan tidak merubah/merusak objek yang mengalami kerugian.</li>

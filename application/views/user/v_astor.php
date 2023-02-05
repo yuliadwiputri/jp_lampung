@@ -163,7 +163,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>1. Partial Loss</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat Tuntutan Kerugian dari Tertanggung ditanda tangani oleh yang berhak, untuk perusahaan dicap.</li>
@@ -190,7 +190,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>2. Total Loss</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Laporan survey petugas (diupayakan cross check TKP/lingkungannya maksimum 2 x 24 jam setelah adanya pelaporan) berikut asli foto (kerusakan total).</li>
@@ -214,7 +214,7 @@
                         <div class="cardShadow">
                             <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
                                 <h7 class="card-header bg-info text-light border-info fs-6"><b>3. Tuntutan yang melibatkan Pihak III (TJH III), harus disertai:</b></h7>
-                                <div class="card-body">
+                                <div class="card-body text-dark">
                                     <p class="card-text">
                                     <ul style="list-style-type:circle">
                                         <li class="fs-6">Surat Tuntutan Kerugian dari Pihak III kepada Tertanggung.</li>
