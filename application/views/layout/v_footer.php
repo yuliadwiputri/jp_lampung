@@ -69,17 +69,8 @@
 							</div> -->
 							<div class="footer_section footer_links">
 								<div class="footer_title" style="line-height: 1em;">Unit Layaran Bakauheni</div>
-								<div class="footer_links_container">
-									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="#">Features</a></li>
-										<li><a href="courses.html">Courses</a></li>
-										<li><a href="#">Events</a></li>
-										<li><a href="#">Gallery</a></li>
-										<li><a href="#">FAQs</a></li>
-									</ul>
+								<div class="footer_about_text">
+									<p>Branch Office Bandar Lampung</p>
 								</div>
 							</div>
 
@@ -109,13 +100,13 @@
 					<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						Copyright &copy;<script>
 							document.write(new Date().getFullYear());
-						</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						</script> All rights reserved | v.1.0 </a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					<div class="ml-lg-auto cr_links">
 						<ul class="cr_list">
-							<li><a href="#">Copyright notification</a></li>
+							<!-- <li><a href="#">Copyright notification</a></li>
 							<li><a href="#">Terms of Use</a></li>
-							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Privacy Policy</a></li> -->
 						</ul>
 					</div>
 				</div>

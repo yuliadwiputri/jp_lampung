@@ -4,11 +4,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class User extends CI_Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('m_sejarah');
+        $this->load->model('m_visiMisi');
+        $this->load->model('m_jpAstor');
+        $this->load->model('m_jpBonding');
+        $this->load->model('m_jpAspri');
+        $this->load->model('m_jpGraha');
+        $this->load->model('m_carousel');
+        
+    }
 
     public function index()
     {
         $data = array(
             'title' => 'Jasa Raharja Lampung',
+            'carousel' => $this->m_carousel->list(),
             'isi' => 'v_home'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
@@ -17,7 +30,8 @@ class User extends CI_Controller
     {
         $data = array(
             'title' => 'Sejarah | Jasa Raharja Lampung',
-            'isi' => 'user/v_sejarah'
+            'isi' => 'user/v_sejarah',
+            'sejarah' => $this->m_sejarah->list(),
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
@@ -25,7 +39,8 @@ class User extends CI_Controller
     {
         $data = array(
             'title' => 'Visi & Misi | Jasa Raharja Lampung',
-            'isi' => 'user/v_visimisi'
+            'isi' => 'user/v_visimisi',
+            'visiMisi' => $this->m_visiMisi->list(),
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
@@ -50,7 +65,8 @@ class User extends CI_Controller
     {
         $data = array(
             'title' => 'ASTOR | Jasa Raharja Lampung',
-            'isi' => 'user/v_astor'
+            'isi' => 'user/v_astor',
+            'jpAstor' => $this->m_jpAstor->list(),
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
@@ -58,6 +74,7 @@ class User extends CI_Controller
     {
         $data = array(
             'title' => 'ASPRI | Jasa Raharja Lampung',
+            'jpAspri' => $this->m_jpAspri->list(),
             'isi' => 'user/v_aspri'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
@@ -66,6 +83,7 @@ class User extends CI_Controller
     {
         $data = array(
             'title' => 'BONDING | Jasa Raharja Lampung',
+            'jpBonding' => $this->m_jpBonding->list(),
             'isi' => 'user/v_bonding'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
@@ -74,6 +92,7 @@ class User extends CI_Controller
     {
         $data = array(
             'title' => 'GRAHA | Jasa Raharja Lampung',
+            'jpGraha' => $this->m_jpGraha->list(),
             'isi' => 'user/v_graha'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);

@@ -26,7 +26,7 @@ class User_login
       $this->ci->session->set_userdata('username', $username);
       $this->ci->session->set_userdata('nama_user', $nama_user);
       $this->ci->session->set_userdata('level', $level);
-      redirect('carousel');
+      redirect('sejarah');
     } else {
       $this->ci->session->set_flashdata('pesan', 'Username Atau Password Anda Salah.');
       redirect('adminJP');
