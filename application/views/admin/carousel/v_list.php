@@ -1,7 +1,7 @@
 <div class="col-lg-12">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <a href="<?= base_url('carousel/add')?>" class="btn btn-primary btn-sm" ><i class="fa fa-plus"></i> Add</a>
+            <!-- <a href="<?= base_url('carousel/add')?>" class="btn btn-primary btn-sm" ><i class="fa fa-plus"></i> Add</a> -->
         </div>
         <div class="panel-body">
             <?php
