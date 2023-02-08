@@ -18,12 +18,12 @@
 									</a>
 								</div>
 								<div class="footer_about_text">
-									
+
 									<p>Email: lampung@jasaraharja-putera.co.id</p>
 									<p>Tel: 07218014081</p>
-									
+
 								</div>
-								
+
 								<div class="footer_social">
 									<ul>
 										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
@@ -39,8 +39,8 @@
 
 						<div class="col-lg-3 footer_col">
 
-<!-- Footer links -->
-<!-- <div class="footer_section footer_links">
+							<!-- Footer links -->
+							<!-- <div class="footer_section footer_links">
 	<div class="footer_title">Contact Us</div>
 	<div class="footer_links_container">
 		<ul>
@@ -55,23 +55,22 @@
 		</ul>
 	</div>
 </div> -->
-<div class="footer_section footer_links">
-<div class="footer_title" style="line-height: 1em;">Branch Office Bandar Lampung</div>
+							<div class="footer_section footer_links">
+								<div class="footer_title" style="line-height: 1em;">Branch Office Bandar Lampung</div>
 								<div class="footer_about_text">
 									<p>Jl. Diponegoro No.59 B-C, Sumur Batu, Kec. Tlk. Betung Utara, Kota Bandar Lampung, Lampung 35212</p>
-								
 								</div>
 								<br>
-	<div class="footer_title" style="line-height: 1em;">Marketing Officer Bengkulu</div>
-	<div class="footer_about_text">
-		<p>Jl. S. Parman No.50, Kebun Kenanga, Kec. Ratu Samban, Kota Bengkulu</p>
-	</div>
-	
-</div>
+								<div class="footer_title" style="line-height: 1em;">Marketing Officer Bengkulu</div>
+								<div class="footer_about_text">
+									<p>Jl. S. Parman No.50, Kebun Kenanga, Kec. Ratu Samban, Kota Bengkulu</p>
+								</div>
 
-</div>
+							</div>
 
-						
+						</div>
+
+
 
 						<div class="col-lg-3 footer_col">
 
