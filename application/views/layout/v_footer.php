@@ -64,7 +64,7 @@
 								<br>
 	<div class="footer_title" style="line-height: 1em;">Marketing Officer Bengkulu</div>
 	<div class="footer_about_text">
-		<p>Bengkulu</p>
+		<p>Jl. S. Parman No.50, Kebun Kenanga, Kec. Ratu Samban, Kota Bengkulu</p>
 	</div>
 	
 </div>
@@ -94,12 +94,12 @@
 							<div class="footer_section footer_links">
 								<div class="footer_title" style="line-height: 1em;">Unit Layaran Curup</div>
 								<div class="footer_about_text">
-									<p>Talang Rimbo Lama, Kec. Curup Tengah, Kabupaten Rejang Lebong, Bengkulu</p>
+									<p>Talang Rimbo Lama, Kec. Curup Tengah, Kab. Rejang Lebong, Bengkulu</p>
 								</div>
 								<br>
-								<div class="footer_title" style="line-height: 1em;">Unit Layaran Bakauheni</div>
+								<div class="footer_title" style="line-height: 1em;">Unit Pelayaran Klaim Bakauheni</div>
 								<div class="footer_about_text">
-									<p>Bakauheni, Lampung Selatan</p>
+									<p>Bakauheni, Kec. Bakauheni, Kab. Lampung Selatan</p>
 								</div>
 							</div>
 
