@@ -148,7 +148,7 @@
                 <!-- Kelengkapan Berkas -->
                 <div class="container">
                     <center>
-                        <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
+                    <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                     </center>
                     <br>
                     <div class="section_title_container text-center">

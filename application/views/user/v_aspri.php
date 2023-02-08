@@ -35,11 +35,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><br><br>
 
                 <div class="container">
                     <center>
-                        <hr class="style5" style="border-top: 5px solid #08347c;" width="100px">
+                        <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                         <br>
                         <h4 class="section_title" style=" line-height: 1.7em;">DENGAN JP-ASPRI ANDA DAPAT MEMBERIKAN PERLINDUNGAN 24 JAM NON-STOP</h4>
                         <h4 class="section_title" style=" line-height: 1.7em;">BAGI KELUARGA ANDA, REKAN-REKAN ANDA DAN KARYAWAN ANDA</h4>
@@ -81,7 +81,7 @@
                     <div class="container">
                         <br><br><br>
                         <center>
-                            <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
+                        <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                         </center>
                         <br>
                         <div class="section_title_container text-center">
