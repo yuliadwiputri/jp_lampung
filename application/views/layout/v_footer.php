@@ -18,8 +18,12 @@
 									</a>
 								</div>
 								<div class="footer_about_text">
-									<p>Branch Office Bandar Lampung</p>
+									
+									<p>Email: lampung@jasaraharja-putera.co.id</p>
+									<p>Tel: 07218014081</p>
+									
 								</div>
+								
 								<div class="footer_social">
 									<ul>
 										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
@@ -35,19 +39,39 @@
 
 						<div class="col-lg-3 footer_col">
 
-							<!-- Footer Contact -->
-							<div class="footer_section footer_contact">
-								<div class="footer_title">Contact Us</div>
-								<div class="footer_contact_info">
-									<ul>
-										<li>Email: lampung@jasaraharja-putera.co.id</li>
-										<li>Tel: 07218014081</li>
-										<li>Jl. Diponegoro No.59 B-C, Sumur Batu, Kec. Tlk. Betung Utara, Kota Bandar Lampung, Lampung 35212</li>
-									</ul>
+<!-- Footer links -->
+<!-- <div class="footer_section footer_links">
+	<div class="footer_title">Contact Us</div>
+	<div class="footer_links_container">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">FAQs</a></li>
+		</ul>
+	</div>
+</div> -->
+<div class="footer_section footer_links">
+<div class="footer_title" style="line-height: 1em;">Branch Office Bandar Lampung</div>
+								<div class="footer_about_text">
+									<p>Jl. Diponegoro No.59 B-C, Sumur Batu, Kec. Tlk. Betung Utara, Kota Bandar Lampung, Lampung 35212</p>
+								
 								</div>
-							</div>
+								<br>
+	<div class="footer_title" style="line-height: 1em;">Marketing Officer Bengkulu</div>
+	<div class="footer_about_text">
+		<p>Bengkulu</p>
+	</div>
+	
+</div>
 
-						</div>
+</div>
+
+						
 
 						<div class="col-lg-3 footer_col">
 
@@ -68,9 +92,14 @@
 								</div>
 							</div> -->
 							<div class="footer_section footer_links">
+								<div class="footer_title" style="line-height: 1em;">Unit Layaran Curup</div>
+								<div class="footer_about_text">
+									<p>Talang Rimbo Lama, Kec. Curup Tengah, Kabupaten Rejang Lebong, Bengkulu</p>
+								</div>
+								<br>
 								<div class="footer_title" style="line-height: 1em;">Unit Layaran Bakauheni</div>
 								<div class="footer_about_text">
-									<p>Branch Office Bandar Lampung</p>
+									<p>Bakauheni, Lampung Selatan</p>
 								</div>
 							</div>
 
