@@ -112,7 +112,7 @@ foreach ($jpAspri as $key => $value) {
                                     <div class="card-body">
                                         <p class="card-text">
                                         <ul style="list-style-type:circle">
-                                            <li class="fs-6"><?= $value->berkas1?><br>
+                                            <li class="fs-6 text-dark"><?= $value->berkas1?><br>
                                             </li>
                                         </ul>
                                         </p>
