@@ -5,9 +5,9 @@
                     <div class="sidebar-nav navbar-collapse">
                         <ul class="nav" id="side-menu">
                           
-                            <!-- <li class="active">
+                            <li class="active">
                                 <a href="<?= base_url('carousel') ?>"><i class="fa fa-dashboard fa-fw"></i> Carousel</a>
-                            </li> -->
+                            </li>
                          
                             <li>
                                 <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> About Us<span class="fa arrow"></span></a>

@@ -28,8 +28,8 @@
                 </div>
                 <div class="form-group">
                     <label>Keterangan</label>
-                    <input class="form-control" type="text" name="keterangan" value="<?= $carousel->keterangan ?>" placeholder="keterangan">
-                </div>
+                    <textarea name="keterangan" id="editor4" required><?= $carousel->keterangan ?></textarea>
+                                   </div>
                 <div class="form-group" >
                     <button type="submit" class="btn btn-primary">Simpan</button> 
                 <button type="reset" class="btn btn-success">Reset</button></div>

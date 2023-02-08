@@ -8,7 +8,7 @@
                     <br><br><br>
                     <h1 class="section_title"><?= $value->judul ?></h1>
                     <h2 class="section_title"><?= $value->subjudul ?></h2>
-                    <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
+                    <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                 </center>
                 <br>
                 <div class="row">

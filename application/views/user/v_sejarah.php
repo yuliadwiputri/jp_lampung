@@ -7,7 +7,7 @@ foreach ($sejarah as $key => $value) {
         <center>
             <br><br><br>
             <h1 class="section_title">SEJARAH</h1>
-            <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
+            <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
         </center>
         <div class="row text-justify">
             <div class="col-4">
@@ -22,7 +22,7 @@ foreach ($sejarah as $key => $value) {
             </div>
             <div class="col">
                 <br><br>
-                <div class="card border-secondary mb-3" style="max-width: 100%;">
+                <div class="card mb-3" style="max-width: 100%;">
                     <div class="card-body">
                         <div class="card-body">
                             <p class="fs-6"><?= $value->desc1 ?></p>
@@ -32,7 +32,7 @@ foreach ($sejarah as $key => $value) {
             </div>
         </div>
 
-        <div class="card border-secondary mb-3" style="max-width: 100%;">
+        <div class="card mb-3" style="max-width: 100%;">
             <div class="card-body text-justify">
                 <div class="card-body">
                     <p class="card-text fs-6"><?= $value->desc2 ?></p>

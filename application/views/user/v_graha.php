@@ -8,7 +8,7 @@
                     <br><br><br>
                     <h1 class="section_title"><?= $value->judul ?></h1>
                     <h2 class="section_title"><?= $value->subjudul ?></h2>
-                    <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
+                    <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                 </center>
                 <br>
                 <div class="row">
@@ -39,13 +39,13 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6  text-justify">
+                        <div class="col-lg-6">
                             <br><br>
                             <div class="card border mb-3 shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 100%;">
                                 <div class="card-header">
                                     <h2><b>Ruang Lingkup JP-GRAHA</b></h2>
                                 </div>
-                                <div class="card-body fs-6 text-dark">
+                                <div class="card-body fs-6 text-dark text-justify">
                                     <?= $value->lingkup ?> </div>
                                 <div class="card-body">
                                     <div class="card-body">
