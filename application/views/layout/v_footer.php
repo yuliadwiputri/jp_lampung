@@ -14,7 +14,7 @@
 							<div class="footer_section footer_about" id="footer">
 								<div class="footer_logo_container">
 									<a href="#">
-										<div class="footer_logo_text">Jasa Raharja<span> Putera</span></div>
+										<div class="footer_logo_text">Jasa Raharja Putera</div>
 									</a>
 								</div>
 								<div class="footer_about_text">
