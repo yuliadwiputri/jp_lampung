@@ -14,7 +14,7 @@ public function __construct()
     public function index()
     {
         $data = array(
-			'title' => 'Jasa Raharja Lampung',
+			'title' => 'Protector for Protection',
             'title2' => 'Berita',
            'berita' => $this->m_berita->list(),
 			'isi' => 'admin/berita/v_list'
@@ -36,7 +36,7 @@ public function __construct()
             {
                    
                     $data=array(
-                        'title' => 'Jasa Raharja Lampung',
+                        'title' => 'Protector for Protection',
                         'title2' => '',
                        'error' => $this->upload->display_errors(),
                     
@@ -68,7 +68,7 @@ public function __construct()
             }
         }
         $data = array(
-			'title' => 'Jasa Raharja Lampung',
+			'title' => 'Protector for Protection',
             'title2' => '',
           
 			'isi' => 'admin/berita/v_add'
@@ -90,7 +90,7 @@ public function __construct()
             {
                    
                     $data=array(
-                        'title' => 'Jasa Raharja Lampung',
+                        'title' => 'Protector for Protection',
                         'title2' => '',
                        'error' => $this->upload->display_errors(),
                     'berita' => $this->m_berita->detail($id_berita),
@@ -141,7 +141,7 @@ public function __construct()
             redirect('berita');
         }
         $data = array(
-			'title' => 'Jasa Raharja Lampung',
+			'title' => 'Protector for Protection',
             'title2' => '',
             'berita' => $this->m_berita->detail($id_berita),
 			'isi' => 'admin/berita/v_edit'

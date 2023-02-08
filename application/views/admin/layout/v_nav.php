@@ -1,21 +1,14 @@
   <!-- /.navbar-top-links -->
 
   <div class="navbar-default sidebar" role="navigation">
+    
                     <div class="sidebar-nav navbar-collapse">
                         <ul class="nav" id="side-menu">
                           
                             <li class="active">
                                 <a href="<?= base_url('carousel') ?>"><i class="fa fa-dashboard fa-fw"></i> Carousel</a>
                             </li>
-                            <!-- <li class="active">
-                                <a href="<?= base_url('profil') ?>"><i class="fa fa-users fa-fw"></i> Data Profil Manajemen</a>
-                            </li>
-                            <li class="active">
-                                <a href="<?= base_url('JP_struktur') ?>"><i class="fa fa-sitemap fa-fw"></i> Struktur Organisasi</a>
-                            </li>
-                            <li class="active">
-                                <a href="<?= base_url('berita') ?>"><i class="fa fa-newspaper-o fa-fw"></i> Berita</a>
-                            </li> -->
+                         
                             <li>
                                 <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> About Us<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
@@ -46,6 +39,9 @@
                                   
                                 </ul>
                             </li>
+                            <!-- <li class="active">
+                                <a href="<?= base_url('dataProfil') ?>"><i class="fa fa-user fa-fw"></i> Edit Data Profil</a>
+                            </li> -->
 
                            
                             <li class="active">
@@ -65,6 +61,6 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h2 class="page-header"><?= $title2 ?></h2>
+                            <h2 class="page-header"><b><?= $title2 ?></b></h2>
                        
                    

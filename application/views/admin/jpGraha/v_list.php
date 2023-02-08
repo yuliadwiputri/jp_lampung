@@ -1,7 +1,14 @@
 <div class="col-lg-12">
     <div class="panel panel-primary">
+    <?php $no = 1;
+                    foreach ($jpGraha as $key => $value) {
+
+                    ?>
         <div class="panel-heading">
-            <a href="<?= base_url('jpGraha/add')?>" class="btn btn-primary btn-sm" ><i class="fa fa-plus"></i> Add</a>
+            <!-- <a href="<?= base_url('jpGraha/add') ?>" class="btn btn-primary btn-sm" ><i class="fa fa-plus"></i> Add</a> -->
+            <a href="<?= base_url('jpGraha/edit/' . $value->id_jpGraha) ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i> Edit </a>
+            <a href="<?= base_url('jpGraha/delete/' . $value->id_jpGraha) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
+
         </div>
         <div class="panel-body">
             <?php
@@ -16,48 +23,81 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Foto</th>
-                        <th>Judul</th>
-                        <th>Subjudul</th>
-                        <th>Deskripsi Singkat</th>
-                        <th>Deskripsi </th>
-                        <th>Bangunan Yang Dapat Diasuransikan</th>
-                        <th>Harta Yang Dapat Diasuransikan</th>
-                        <th>Ruang Lingkup</th>
+                        <th>Atribut</th>
+                        <th>Isi</th>
                         
-                        <th colspan="5">jaminan </th>
-                        <th>Kelengkapan Berkas</th>
-                      
-                        <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $no = 1;
-                    foreach ($jpGraha as $key => $value) {
-
-                    ?>
-                        <tr>
-
+                <tr>
+                        <td><?= $no++; ?></td>
+                        <td><b>Foto</b></td>
+                        <td><img src="<?= base_url('foto_jpGraha/' . $value->foto_jpGraha) ?>" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td><?= $no++; ?></td>
+                        <td><b>Judul</b></td>
+                        <td><?= $value->judul ?></td>
+                    </tr>
+                    <tr>
+                        <td><?= $no++; ?></td>
+                        <td><b>Sub Judul</b></td>
+                        <td><?= $value->subjudul ?></td>
+                    </tr>
+                    <tr>
                             <td><?= $no++; ?></td>
-                           <td><img src="<?= base_url('foto_jpGraha/'.$value->foto_jpGraha) ?>" width="100px"></td>
-                            <td><?= $value->judul ?></td>
-                            <td><?= $value->subjudul ?></td>
+                            <td><b>Info Singkat</b></td>
                             <td><?= $value->desc1 ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Deskripsi</b></td>
                             <td><?= $value->desc2 ?></td>
-                            <td><?= $value->bangunan ?></td>
-                            <td><?= $value->harta ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Ruang Lingkup</b></td>
                             <td><?= $value->lingkup ?></td>
-                        
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Bangunan Yang Dapat Diasuransikan</b></td>
+                            <td><?= $value->bangunan ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Harta Yang Dapat Diasuransikan</b></td>
+                            <td><?= $value->harta ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Jaminan Resiko Banjir</b></td>
                             <td><?= $value->jaminan1 ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Jaminan Resiko Teroris dan Sabotase</b></td>
                             <td><?= $value->jaminan2 ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Jaminan Resiko Gempa Bumi</b></td>
                             <td><?= $value->jaminan3 ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Jaminan Resiko Kebongkaran</b></td>
                             <td><?= $value->jaminan4 ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Property/Industry Risk</b></td>
                             <td><?= $value->jaminan5 ?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
+                            <td><b>Kelengkapan Berkas</b></td>
                             <td><?= $value->berkas ?></td>
-                            <td>
-                            <a href="<?= base_url('jpGraha/edit/'.$value->id_jpGraha)?>" class="btn btn-success btn-sm" ><i class="fa fa-pencil"></i> Edit </a>
-                                <a href="<?= base_url('jpGraha/delete/' . $value->id_jpGraha) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
-                            </td>
                         </tr>
                     <?php } ?>
                 </tbody>
@@ -67,6 +107,3 @@
 
     </div>
 </div>
-
-
-

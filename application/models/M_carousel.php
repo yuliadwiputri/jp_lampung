@@ -33,6 +33,8 @@ class M_carousel extends CI_Model {
         $this->db->delete('tbl_carousel',$data);
     }
 
+    
+
 }
 
 /* End of file M_carousel.php */

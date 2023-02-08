@@ -14,7 +14,7 @@ class jpBonding extends CI_Controller
     public function index()
     {
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => 'JP-BONDING',
             'jpBonding' => $this->m_jpBonding->list(),
             'isi' => 'admin/jpBonding/v_list'
@@ -43,7 +43,7 @@ class jpBonding extends CI_Controller
             if (!$this->upload->do_upload('foto_jpBonding')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
 
@@ -76,7 +76,7 @@ class jpBonding extends CI_Controller
             }
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
 
             'isi' => 'admin/jpBonding/v_add'
@@ -102,12 +102,12 @@ class jpBonding extends CI_Controller
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_jpBonding/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 2000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_jpBonding')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
                     'jpBonding' => $this->m_jpBonding->detail($id_jpBonding),
@@ -170,7 +170,7 @@ class jpBonding extends CI_Controller
             redirect('jpBonding');
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
             'jpBonding' => $this->m_jpBonding->detail($id_jpBonding),
             'isi' => 'admin/jpBonding/v_edit'

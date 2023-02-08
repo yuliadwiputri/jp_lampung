@@ -31,6 +31,7 @@ class M_sejarah extends CI_Model {
     public function delete($data){
         $this->db->where('id_sejarah', $data['id_sejarah']);
         $this->db->delete('tbl_sejarah',$data);
+       
     }
 
 }

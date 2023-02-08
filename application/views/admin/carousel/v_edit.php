@@ -22,13 +22,13 @@
                     <img src="<?= base_url('foto_carousel/'.$carousel->foto_carousel) ?>" width="150px">
                  </div> 
                  <div class="form-group">
-                    <label>Ubah Foto</label>
+                    <label>Ubah Foto (format foto jpg/png/jpeg/gif dan ukuran maks. 5mb)</label>
                     <input class="form-control" type="file" name="foto_carousel" placeholder="Foto" >
                     <!-- <p class="help-block">Example block-level help text here.</p> -->
                 </div>
                 <div class="form-group">
                     <label>Keterangan</label>
-                   <textarea name="keterangan" id="edit1"  required><?= $carousel->keterangan ?></textarea>
+                    <input class="form-control" type="text" name="keterangan" value="<?= $carousel->keterangan ?>" placeholder="keterangan">
                 </div>
                 <div class="form-group" >
                     <button type="submit" class="btn btn-primary">Simpan</button> 

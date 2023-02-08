@@ -14,8 +14,8 @@ class jpGraha extends CI_Controller
     public function index()
     {
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
-            'title2' => 'JP-BONDING',
+            'title' => 'Protector for Protection',
+            'title2' => 'JP-GRAHA',
             'jpGraha' => $this->m_jpGraha->list(),
             'isi' => 'admin/jpGraha/v_list'
         );
@@ -47,7 +47,7 @@ class jpGraha extends CI_Controller
             if (!$this->upload->do_upload('foto_jpGraha')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
 
@@ -84,7 +84,7 @@ class jpGraha extends CI_Controller
             }
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
 
             'isi' => 'admin/jpGraha/v_add'
@@ -111,12 +111,12 @@ class jpGraha extends CI_Controller
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_jpGraha/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 2000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_jpGraha')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
                     'jpGraha' => $this->m_jpGraha->detail($id_jpGraha),
@@ -183,7 +183,7 @@ class jpGraha extends CI_Controller
             redirect('jpGraha');
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
             'jpGraha' => $this->m_jpGraha->detail($id_jpGraha),
             'isi' => 'admin/jpGraha/v_edit'

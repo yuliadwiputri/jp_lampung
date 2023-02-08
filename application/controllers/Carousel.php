@@ -13,7 +13,7 @@ class Carousel extends CI_Controller
     public function index()
     {
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => 'Carousel JRP',
             'carousel' => $this->m_carousel->list(),
             'isi' => 'admin/carousel/v_list'
@@ -29,12 +29,12 @@ class Carousel extends CI_Controller
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_carousel/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 9000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_carousel')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
 
@@ -58,7 +58,7 @@ class Carousel extends CI_Controller
             }
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
 
             'isi' => 'admin/carousel/v_add'
@@ -76,12 +76,12 @@ class Carousel extends CI_Controller
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_carousel/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 2000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_carousel')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
                     'carousel' => $this->m_carousel->detail($id_carousel),
@@ -121,7 +121,7 @@ class Carousel extends CI_Controller
             redirect('carousel');
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
             'carousel' => $this->m_carousel->detail($id_carousel),
             'isi' => 'admin/carousel/v_edit'

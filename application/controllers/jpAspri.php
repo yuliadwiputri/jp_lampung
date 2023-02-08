@@ -14,8 +14,8 @@ class jpAspri extends CI_Controller
     public function index()
     {
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
-            'title2' => 'JP-ASTOR',
+            'title' => 'Protector for Protection',
+            'title2' => 'JP-ASPRI',
             'jpAspri' => $this->m_jpAspri->list(),
             'isi' => 'admin/jpAspri/v_list'
         );
@@ -45,7 +45,7 @@ class jpAspri extends CI_Controller
             if (!$this->upload->do_upload('foto_jpAspri')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
 
@@ -80,7 +80,7 @@ class jpAspri extends CI_Controller
             }
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
 
             'isi' => 'admin/jpAspri/v_add'
@@ -106,12 +106,12 @@ class jpAspri extends CI_Controller
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_jpAspri/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 2000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_jpAspri')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
                     'jpAspri' => $this->m_jpAspri->detail($id_jpAspri),
@@ -174,7 +174,7 @@ class jpAspri extends CI_Controller
             redirect('jpAspri');
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
             'jpAspri' => $this->m_jpAspri->detail($id_jpAspri),
             'isi' => 'admin/jpAspri/v_edit'

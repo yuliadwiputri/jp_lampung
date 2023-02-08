@@ -33,7 +33,7 @@
                            <td><img src="<?= base_url('foto_carousel/'.$value->foto_carousel) ?>" width="100px"></td>
                            <td><?= $value->keterangan ?></td>
                             <td>
-                            <a href="<?= base_url('carousel/edit/'.$value->id_carousel)?>" class="btn btn-success btn-sm" ><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="<?= base_url('carousel/edit/'.$value->id_carousel)?>" class="btn btn-primary btn-sm" ><i class="fa fa-pencil"></i> Edit </a>
                                 <a href="<?= base_url('carousel/delete/' . $value->id_carousel) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
                             </td>
                            

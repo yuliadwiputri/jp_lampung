@@ -15,7 +15,7 @@ class Profil extends CI_Controller {
     public function index()
     {
         $data = array(
-			'title' => 'Jasa Raharja Lampung',
+			'title' => 'Protector for Protection',
             'title2' => 'Profil Manajemen',
            'profil' => $this->m_profil->list(),
 			'isi' => 'admin/profil/v_list'
@@ -38,7 +38,7 @@ class Profil extends CI_Controller {
             {
                    
                     $data=array(
-                        'title' => 'Jasa Raharja Lampung',
+                        'title' => 'Protector for Protection',
                         'title2' => '',
                        'error' => $this->upload->display_errors(),
                     
@@ -70,7 +70,7 @@ class Profil extends CI_Controller {
         }
         
         $data=array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
           
             'isi' => 'admin/profil/v_add'
@@ -97,7 +97,7 @@ class Profil extends CI_Controller {
             {
                    
                     $data=array(
-                        'title' => 'Jasa Raharja Lampung',
+                        'title' => 'Protector for Protection',
                         'title2' => '',
                        'error' => $this->upload->display_errors(),
                        'profil'=>$this->m_profil->detail($id_profil),
@@ -149,7 +149,7 @@ class Profil extends CI_Controller {
                     
         }
         $data=array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
           'profil'=>$this->m_profil->detail($id_profil),
             'isi' => 'admin/profil/v_edit'

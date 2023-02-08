@@ -14,7 +14,7 @@ class jpAstor extends CI_Controller
     public function index()
     {
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => 'JP-ASTOR',
             'jpAstor' => $this->m_jpAstor->list(),
             'isi' => 'admin/jpAstor/v_list'
@@ -45,7 +45,7 @@ class jpAstor extends CI_Controller
             if (!$this->upload->do_upload('foto_jpAstor')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
 
@@ -80,7 +80,7 @@ class jpAstor extends CI_Controller
             }
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
 
             'isi' => 'admin/jpAstor/v_add'
@@ -107,12 +107,12 @@ class jpAstor extends CI_Controller
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_jpAstor/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 2000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_jpAstor')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
                     'jpAstor' => $this->m_jpAstor->detail($id_jpAstor),
@@ -175,7 +175,7 @@ class jpAstor extends CI_Controller
             redirect('jpAstor');
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
             'jpAstor' => $this->m_jpAstor->detail($id_jpAstor),
             'isi' => 'admin/jpAstor/v_edit'

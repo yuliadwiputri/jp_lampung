@@ -1,4 +1,8 @@
 <div class="features">
+<?php
+foreach ($visiMisi as $key => $value) {
+
+?>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -22,7 +26,7 @@
                         <div class="event_title"><a href="#">Visi</a></div>
                         <div class="event_info_container">
                             <div class="event_text">
-                                <h5>Menjadi Perusahaan Asuransi Terkemuka di Indonesia.</h5>
+                                <h5><?= $value->visi ?></h5>
                             </div>
                         </div>
                     </div>
@@ -42,7 +46,7 @@
                         <div class="event_title"><a href="#">Misi</a></div>
                         <div class="event_info_container">
                             <div class="event_text">
-                                <h5>Menyediakan Produk Tepat Guna dengan Pelayanan Prima</h5>
+                                <h5><?= $value->misi ?></h5>
                             </div>
                         </div>
                     </div>
@@ -50,4 +54,6 @@
             </div>
         </div>
     </div>
+    <?php } ?>
+    
 </div>

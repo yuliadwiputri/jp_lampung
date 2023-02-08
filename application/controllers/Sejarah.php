@@ -14,7 +14,7 @@ class Sejarah extends CI_Controller
     public function index()
     {
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => 'Sejarah JRP',
             'sejarah' => $this->m_sejarah->list(),
             'isi' => 'admin/sejarah/v_list'
@@ -26,8 +26,8 @@ class Sejarah extends CI_Controller
     {
         $this->form_validation->set_rules('desc1', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('desc2', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('desc3', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('desc4', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
+        // $this->form_validation->set_rules('desc3', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
+        // $this->form_validation->set_rules('desc4', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
 
 
         if ($this->form_validation->run() == TRUE) {
@@ -38,7 +38,7 @@ class Sejarah extends CI_Controller
             if (!$this->upload->do_upload('foto_sejarah')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
 
@@ -55,8 +55,8 @@ class Sejarah extends CI_Controller
                     'foto_sejarah' => $upload_data['uploads']['file_name'],
                     'desc1' => $this->input->post('desc1'),
                     'desc2' => $this->input->post('desc2'),
-                    'desc3' => $this->input->post('desc3'),
-                    'desc4' => $this->input->post('desc4')
+                    // 'desc3' => $this->input->post('desc3'),
+                    // 'desc4' => $this->input->post('desc4')
 
 
                 );
@@ -66,7 +66,7 @@ class Sejarah extends CI_Controller
             }
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
 
             'isi' => 'admin/sejarah/v_add'
@@ -79,19 +79,19 @@ class Sejarah extends CI_Controller
     {
         $this->form_validation->set_rules('desc1', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('desc2', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('desc3', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('desc4', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
+        // $this->form_validation->set_rules('desc3', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
+        // $this->form_validation->set_rules('desc4', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
 
 
         if ($this->form_validation->run() == TRUE) {
             $config['upload_path']        = './foto_sejarah/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
-            $config['max_size']             = 2000;
+            $config['max_size']             = 5000;
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('foto_sejarah')) {
 
                 $data = array(
-                    'title' => 'Jasa Raharja Lampung',
+                    'title' => 'Protector for Protection',
                     'title2' => '',
                     'error' => $this->upload->display_errors(),
                     'sejarah' => $this->m_sejarah->detail($id_sejarah),
@@ -113,8 +113,8 @@ class Sejarah extends CI_Controller
                     'id_sejarah' => $id_sejarah,
                     'desc1' => $this->input->post('desc1'),
                     'desc2' => $this->input->post('desc2'),
-                    'desc3' => $this->input->post('desc3'),
-                    'desc4' => $this->input->post('desc4'),
+                    // 'desc3' => $this->input->post('desc3'),
+                    // 'desc4' => $this->input->post('desc4'),
                     'foto_sejarah' => $upload_data['uploads']['file_name']
 
                 );
@@ -126,8 +126,8 @@ class Sejarah extends CI_Controller
                 'id_sejarah' => $id_sejarah,
                 'desc1' => $this->input->post('desc1'),
                 'desc2' => $this->input->post('desc2'),
-                'desc3' => $this->input->post('desc3'),
-                'desc4' => $this->input->post('desc4'),
+                // 'desc3' => $this->input->post('desc3'),
+                // 'desc4' => $this->input->post('desc4'),
 
 
             );
@@ -136,7 +136,7 @@ class Sejarah extends CI_Controller
             redirect('sejarah');
         }
         $data = array(
-            'title' => 'Jasa Raharja Lampung',
+            'title' => 'Protector for Protection',
             'title2' => '',
             'sejarah' => $this->m_sejarah->detail($id_sejarah),
             'isi' => 'admin/sejarah/v_edit'

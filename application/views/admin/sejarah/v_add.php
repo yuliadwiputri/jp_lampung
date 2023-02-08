@@ -28,14 +28,14 @@
                     <label>Deskripsi Sejarah 2 </label>
                    <textarea name="desc2" id="edit1"  ></textarea>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label>Deskripsi Sejarah 3 </label>
                    <textarea name="desc3" id="editor3"  ></textarea>
                 </div>
                 <div class="form-group">
                     <label>Deskripsi Sejarah 4 </label>
                    <textarea name="desc4" id="editor4"  ></textarea>
-                </div>
+                </div> -->
                 <div class="form-group" >
                     <button type="submit" class="btn btn-primary">Simpan</button> 
                 <button type="reset" class="btn btn-success">Reset</button></div>

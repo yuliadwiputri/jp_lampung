@@ -43,7 +43,7 @@
                         <?php
                         echo form_open('adminJP');
                         if ($this->session->flashdata('pesan')) {
-                            echo '<div class="alert alert-success alert-dismissible">
+                            echo '<div class="alert alert-danger alert-dismissible">
                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>';
                             echo $this->session->flashdata('pesan');
                             echo '</div>';
@@ -60,7 +60,7 @@
                             </div>
                            
                             <div class="text-center">
-                                <button type="submit" class="btn btn-success btn-block">Login</button>
+                                <button type="submit" class="btn btn-primary btn-block">Login</button>
                             </div>
                             <!-- Change this to a button or input when using this as a form -->
                             <!-- <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a> -->

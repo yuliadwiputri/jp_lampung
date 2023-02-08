@@ -1,8 +1,8 @@
 <div class="col-lg-12">
     <div class="panel panel-primary">
-        <div class="panel-heading">
-          Edit Data Visi Misi
-        </div>
+        <div class="panel-heading"><b>
+          EDIT DATA VISI & MISI
+        </b></div>
         <div class="panel-body">
             <?php
             if (isset($error_upload)) {

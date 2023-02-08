@@ -14,7 +14,7 @@ class visiMisi extends CI_Controller {
         public function index()
         {
             $data = array(
-                'title' => 'Jasa Raharja Lampung',
+                'title' => 'Protector for Protection',
                 'title2' => 'Visi Misi JRP',
                'visiMisi' => $this->m_visiMisi->list(),
                 'isi' => 'admin/visiMisi/v_list'
@@ -24,7 +24,7 @@ class visiMisi extends CI_Controller {
 
         public function add1 (){
             $data=array(
-                'title' => 'Jasa Raharja Lampung',
+                'title' => 'Protector for Protection',
                 'title2' => '',
                
             
@@ -55,7 +55,7 @@ class visiMisi extends CI_Controller {
            
                 public function edit1 ($id){
                     $data=array(
-                        'title' => 'Jasa Raharja Lampung',
+                        'title' => 'Protector for Protection',
                         'title2' => '',
                      
                     'visiMisi' => $this->m_visiMisi->detail($id),
