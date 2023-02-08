@@ -10,7 +10,7 @@ foreach ($sejarah as $key => $value) {
             <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
         </center>
         <div class="row text-justify">
-            <div class="col-4">
+            <div class="col-lg-4">
                 <br><br><br>
                 <div class="section_title_container text-justify">
                     <div class="section_subtitle">
