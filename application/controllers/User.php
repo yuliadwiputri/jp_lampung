@@ -16,7 +16,7 @@ class User extends CI_Controller
     public function sejarah()
     {
         $data = array(
-            'title' => 'Sejarha | Jasa Raharja Lampung',
+            'title' => 'Sejarah | Jasa Raharja Lampung',
             'isi' => 'user/v_sejarah'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);

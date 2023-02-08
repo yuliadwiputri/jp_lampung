@@ -99,12 +99,34 @@
 			</div>
 			<nav class="menu_nav">
 				<ul class="menu_mm">
-					<li class="menu_mm"><a href="index.html">Home</a></li>
-					<li class="menu_mm"><a href="#">About</a></li>
-					<li class="menu_mm"><a href="#">Courses</a></li>
-					<li class="menu_mm"><a href="#">Blog</a></li>
-					<li class="menu_mm"><a href="#">Page</a></li>
-					<li class="menu_mm"><a href="contact.html">Contact</a></li>
+					<li class="menu_mm"><a href="<?= base_url('User') ?>">Home</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							About Us
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="<?= base_url('User/sejarah') ?>">Sejarah</a>
+							<a class="dropdown-item" href="<?= base_url('User/visiMisi') ?>">Visi & misi</a>
+							<div class="dropdown-divider"></div>
+							<!-- <a class="dropdown-item" href="#">Profil</a>
+												<a class="dropdown-item" href="#">Profil Management</a>
+												<a class="dropdown-item" href="<?= base_url('user/strukturOrganisasi') ?>">Struktur Organisasi</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="<?= base_url('User/penghargaan') ?>">Penghargaan Perusahaan </a> -->
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Product
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="<?= base_url('User/astor') ?>">JP-ASTOR</a>
+							<a class="dropdown-item" href="<?= base_url('User/aspri') ?>">JP-ASPRI</a>
+							<a class="dropdown-item" href="<?= base_url('User/bonding') ?>">JP-BONDING</a>
+							<a class="dropdown-item" href="<?= base_url('User/graha') ?>">JP-GRAHA</a>
+						</div>
+					</li>
+					<li class="menu_mm"><a href="#footer">Contact</a></li>
 				</ul>
 			</nav>
 		</div>

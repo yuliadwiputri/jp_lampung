@@ -6,7 +6,7 @@
             <hr class="style5" style="border-top: 5px solid #08347c" width="100px">
         </center>
         <div class="row text-justify">
-            <div class="col-4">
+            <div class="col-lg-4">
                 <br><br><br>
                 <div class="section_title_container text-justify">
                     <div class="section_subtitle">
@@ -16,9 +16,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col shadow p-3 mb-5 bg-white rounded">
                 <br><br>
-                <div class="card border-secondary mb-3" style="max-width: 100%;">
+                <div class="card mb-3" style="max-width: 100%;">
                     <div class="card-body">
                         <div class="card-body">
                             <p class="fs-6">Berdiri pada tahun 1993, PT Asuransi Jasaraharja Putera atau JRP-INSURANCE yang merupakan Anak Usaha PT Jasa Raharja dalam waktu yang relatif singkat tumbuh menjadi salah satu perusahaan asuransi terkemuka di Indonesia. Hal ini tak lepas dari kuatnya kepercayaan yang diberikan stakeholder dan shareholder kepada Perseroan. Untuk itu JRP-INSURANCE senantiasa berkomitmen untuk menjaga kepercayaan dengan melakukan peningkatan kualitas pelayanan kepada para customer.</p>
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="card border-secondary mb-3" style="max-width: 100%;">
+        <div class="card shadow mb-3" style="max-width: 100%;">
             <div class="card-body text-justify">
                 <div class="card-body">
                     <p class="card-text fs-6">Komitmen JRP-INSURANCE dalam menjaga reputasinya sebagai perusahaan asuransi yang terpercaya tercermin dalam melakukan Tata Kelola Perusahaan Perasuransian yang Baik sesuai dengan nilai-nilai Good Corporate Governance (GCG) serta melakukan pernerapan ISO 370001-2016 Sistem Manajemen Anti Penyuapan (SMAP) dan secara rutin melakukan pemeringkatan dengan meraih rating idAA- (Double A minus Stable Outlook). </p>

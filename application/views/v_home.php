@@ -92,9 +92,9 @@
 
         <div class="row features_row">
             <!-- Features Item -->
-            <div class="border col-sm-6 feature_col">
+            <div class="border col-lg-6 feature_col">
                 <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_astor.png" alt=""></div>
+                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_astor.png"></div>
                     <h3 class="feature_title">Asuransi Kendaraan Bermotor</h3>
                     <div class="feature_text">
                         <p>JP-ASTOR adalah asuransi kendaraan yang dapat menjamin resiko kerusakan dan atau kehilangan kendaraan.</p>
@@ -141,23 +141,23 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- Divider -->
-<div class="container justify-content-center ml-5">
-    <div class="row centered">
-        <div class="col-md-5">
-            <div class="section_title_container text-right"><br>
-                <h2 class="section_title">CORE VALUE</h2>
-                <div class="section_subtitle">
-                    <h2>JASA RAHARJA PUTERA</h2>
+        <!-- Divider -->
+        <div class="container justify-content-center ml-5">
+            <div class="row centered">
+                <div class="col-md-5">
+                    <div class="section_title_container text-right"><br>
+                        <h2 class="section_title">CORE VALUE</h2>
+                        <div class="section_subtitle">
+                            <h2>JASA RAHARJA PUTERA</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-5">
+                    <div class="vr mr-5"></div><br>
+                    <p class="ml-4 text-justify">Keputusan Direksi No. SKEP/111/XI/2020 Tanggal 30 November 2020 Tentang Penetapan AKHLAK Sebagai Budaya Perusahaan di PT Jasaraharja Putera</p>
                 </div>
             </div>
-        </div>
-        <div class="col col-lg-5">
-            <div class="vr mr-5"></div><br>
-            <p class="ml-4 text-justify">Keputusan Direksi No. SKEP/111/XI/2020 Tanggal 30 November 2020 Tentang Penetapan AKHLAK Sebagai Budaya Perusahaan di PT Jasaraharja Putera</p>
-        </div>
+        </div> <br><br>
     </div>
-</div> <br><br>
+</div>
