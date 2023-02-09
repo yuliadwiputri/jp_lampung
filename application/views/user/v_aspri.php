@@ -136,7 +136,6 @@
                                         <ul style="" class="p-4">
                                             <li><?= $value->tidak_jaminan ?></li>
                                         </ul>
-
                                     </div>
                                 </div>
                             </div>
