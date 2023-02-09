@@ -50,6 +50,10 @@
                     <label>Ruang Lingkup </label>
                    <textarea name="lingkup" id="editor5"   required><?= $jpAstor->lingkup ?></textarea>
                 </div>
+                <div class="form-group">
+                    <label>Ilustrasi </label>
+                   <textarea name="ilustrasi" id="editor13"   required><?= $jpAstor->ilustrasi ?></textarea>
+                </div>
                 <br>
                 <div class="form-group">
                     <label>Resiko yang Dijamin </label>

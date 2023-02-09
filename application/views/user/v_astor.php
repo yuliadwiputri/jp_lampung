@@ -57,7 +57,8 @@
                         <div class="section_title_container text-justify">
                             <div class="section_subtitle">
                                 <div class="card" style="width: 30rem;">
-                                    <img src="<?= base_url('template\img\jp_astor2.png') ?>" class="card-img-top" alt="...">
+                                <div class="card-body"><?= $value->ilustrasi ?>
+                                    <!-- <img src="<?= base_url('template\img\jp_astor2.png') ?>" class="card-img-top" alt="..."> -->
                                 </div>
                             </div>
                         </div>

@@ -15,20 +15,20 @@
             <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                 <thead>
                     <tr>
-                        <th>No</th>
+                       
                         <th>Foto</th>
                         <th>Keterangan</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $no = 1;
+                    <?php 
                     foreach ($carousel as $key => $value) {
 
                     ?>
                         <tr>
 
-                            <td><?= $no++; ?></td>
+                            <!-- <td><?= $no++; ?></td> -->
                            
                            <td><img src="<?= base_url('foto_carousel/'.$value->foto_carousel) ?>" width="100px"></td>
                            <td><?= $value->keterangan ?></td>
@@ -39,6 +39,43 @@
                            
                         </tr>
                     <?php } ?>
+
+                    <?php 
+                    foreach ($carousel2 as $key => $value) {
+
+                    ?>
+                        <tr>
+
+                          
+                           
+                           <td><img src="<?= base_url('foto_carousel2/'.$value->foto_carousel2) ?>" width="100px"></td>
+                           <td>><?= $value->keterangan2 ?></td>
+                            <td>
+                            <a href="<?= base_url('carousel/edit2/'.$value->id_carousel2)?>" class="btn btn-primary btn-sm" ><i class="fa fa-pencil"></i> Edit </a>
+                                <a href="<?= base_url('carousel/delete2/' . $value->id_carousel2) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                            </td>
+                           
+                        </tr>
+                    <?php } ?>
+
+                    <?php 
+                    foreach ($carousel3 as $key => $value) {
+
+                    ?>
+                        <tr>
+
+                            <!-- <td><?= $no++; ?></td> -->
+                           
+                           <td><img src="<?= base_url('foto_carousel3/'.$value->foto_carousel3) ?>" width="100px"></td>
+                           <td><?= $value->keterangan3 ?></td>
+                            <td>
+                            <a href="<?= base_url('carousel/edit3/'.$value->id_carousel3)?>" class="btn btn-primary btn-sm" ><i class="fa fa-pencil"></i> Edit </a>
+                                <a href="<?= base_url('carousel/delete3/' . $value->id_carousel3) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                            </td>
+                           
+                        </tr>
+                    <?php } ?>
+
                 </tbody>
 
             </table>

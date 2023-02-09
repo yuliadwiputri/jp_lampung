@@ -14,6 +14,8 @@ class User extends CI_Controller
         $this->load->model('m_jpAspri');
         $this->load->model('m_jpGraha');
         $this->load->model('m_carousel');
+        $this->load->model('m_carousel2');
+        $this->load->model('m_carousel3');
         
     }
 
@@ -22,6 +24,12 @@ class User extends CI_Controller
         $data = array(
             'title' => 'Jasa Raharja Lampung',
             'carousel' => $this->m_carousel->list(),
+            'carousel2' => $this->m_carousel2->list(),
+            'carousel3' => $this->m_carousel3->list(),
+            'jpAstor' => $this->m_jpAstor->list(),
+            'jpBonding' => $this->m_jpBonding->list(),
+            'jpAspri' => $this->m_jpAspri->list(),
+            'jpGraha' => $this->m_jpGraha->list(),
             'isi' => 'v_home'
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);

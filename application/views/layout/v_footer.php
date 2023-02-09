@@ -91,12 +91,12 @@
 								</div>
 							</div> -->
 							<div class="footer_section footer_links">
-								<div class="footer_title" style="line-height: 1em;">Unit Layaran Curup</div>
+								<div class="footer_title" style="line-height: 1em;">Unit Layanan Curup</div>
 								<div class="footer_about_text">
 									<p>Talang Rimbo Lama, Kec. Curup Tengah, Kab. Rejang Lebong, Bengkulu</p>
 								</div>
 								<br>
-								<div class="footer_title" style="line-height: 1em;">Unit Pelayaran Klaim Bakauheni</div>
+								<div class="footer_title" style="line-height: 1em;">Unit Pelayanan Klaim Bakauheni</div>
 								<div class="footer_about_text">
 									<p>Bakauheni, Kec. Bakauheni, Kab. Lampung Selatan</p>
 								</div>
@@ -126,9 +126,9 @@
 			<div class="col">
 				<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
 					<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>
+						<script>
 							document.write(new Date().getFullYear());
-						</script> All rights reserved | v.1.0 </a>
+						</script> | v.1.0 </a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					<div class="ml-lg-auto cr_links">
 						<ul class="cr_list">
