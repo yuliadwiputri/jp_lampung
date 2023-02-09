@@ -35,15 +35,15 @@
                             </div>
                         </div>
                     </div>
-                </div><br><br>
+                </div><br><br><br>
 
                 <div class="container">
                     <center>
                         <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                         <br>
-                        <h4 class="section_title" style=" line-height: 1.7em;">DENGAN JP-ASPRI ANDA DAPAT MEMBERIKAN PERLINDUNGAN 24 JAM NON-STOP</h4>
-                        <h4 class="section_title" style=" line-height: 1.7em;">BAGI KELUARGA ANDA, REKAN-REKAN ANDA DAN KARYAWAN ANDA</h4>
-                        <h4 class="section_title" style=" line-height: 1.7em;">DARI RESIKO KECELAKAAN YANG DAPAT TERJADI KAPAN DAN DIMANAPUN BERADA.
+                        <h4 class="section_title" style=" line-height: 1.2em;">DENGAN JP-ASPRI ANDA DAPAT MEMBERIKAN PERLINDUNGAN 24 JAM NON-STOP</h4>
+                        <h4 class="section_title" style=" line-height: 1.2em;">BAGI KELUARGA ANDA, REKAN-REKAN ANDA DAN KARYAWAN ANDA</h4>
+                        <h4 class="section_title" style=" line-height: 1.2em;">DARI RESIKO KECELAKAAN YANG DAPAT TERJADI KAPAN DAN DIMANAPUN BERADA.
                     </center><br><br>
 
                     <div class="row">
@@ -108,7 +108,7 @@
                     <!-- Flip Card -->
                     <div class="row">
                         <div class="col">
-                            <div class="flip-card" style="width: 500px; height:400px">
+                            <div class="flip-card" style="width: 500px; height:500px">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front" style="background-image: url('https://s25.postimg.cc/frbd9towf/cta-2.png');">
                                         <img src="<?= base_url('template\img\shield.png') ?>" alt="shield" style="width: 80px; height:80px" class="mb-3">
@@ -125,7 +125,7 @@
                             </div>
                         </div><br><br>
                         <div class="col">
-                            <div class="flip-card" style="width: 500px; height:400px">
+                            <div class="flip-card" style="width: 500px; height:500px">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front" style="background-image: url('https://s25.postimg.cc/frbd9towf/cta-2.png');">
                                         <img src="<?= base_url('template\img\info.png') ?>" alt="shield" style="width: 80px; height:80px" class="mb-3">

@@ -19,8 +19,8 @@
 								</div>
 								<div class="footer_about_text">
 
-									<p>Email: lampung@jasaraharja-putera.co.id</p>
-									<p>Tel: 07218014081</p>
+									<p>Email: lampung@jasaraharja-putera.co.id <br>
+										Telp: 07218014081</p>
 
 								</div>
 
@@ -63,9 +63,11 @@
 								<br>
 								<div class="footer_title" style="line-height: 1em;">Marketing Officer Bengkulu</div>
 								<div class="footer_about_text">
-									<p>Jl. S. Parman No.50, Kebun Kenanga, Kec. Ratu Samban, Kota Bengkulu</p>
+									<p>Email: jpbengkulu@jrp.co.id <br>
+										Telp: (0736) 24350 <br>
+										Jl. S. Parman No.50, Kebun Kenanga, Kec. Ratu Samban, Kota Bengkulu
+									</p>
 								</div>
-
 							</div>
 
 						</div>
@@ -129,7 +131,8 @@
 						<script>
 							document.write(new Date().getFullYear());
 						</script> | v.1.0 </a>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</div>
 					<div class="ml-lg-auto cr_links">
 						<ul class="cr_list">
 							<!-- <li><a href="#">Copyright notification</a></li>
