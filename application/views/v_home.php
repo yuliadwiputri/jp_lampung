@@ -11,7 +11,7 @@
 
                 <!-- Home Slider Item -->
                 <div class="owl-item">
-                    <div class="home_slider_background" style="background-image:url(<?= base_url('foto_carousel/' . $value->foto_carousel) ?>"></div>
+                    <div class="home_slider_background" style="background-image:url(<?= base_url('foto_carousel/' . $value->foto_carousel) ?>)"></div>
                     <div class="home_slider_content">
                         <div class="container">
                             <div class="row">
@@ -25,10 +25,15 @@
                         </div>
                     </div>
                 </div>
+            <?php } ?>
 
-                <!-- Home Slider Item -->
-                <div class="owl-item">
-                    <div class="home_slider_background" style="background-image:url(<?= base_url('foto_carousel/' . $value->foto_carousel) ?>"></div>
+            <!-- Home Slider Item 2 -->
+
+            <div class="owl-item">
+                <?php
+                foreach ($carousel2 as $key => $value) {
+                ?>
+                    <div class="home_slider_background" alt="<?= $value->keterangan2 ?>" style="background-image:url(<?= base_url('foto_carousel2/' . $value->foto_carousel2) ?>)"></div>
                     <div class="home_slider_content">
                         <div class="container">
                             <!-- <div class="row">
@@ -41,14 +46,17 @@
                             </div> -->
                         </div>
                     </div>
-                </div>
-
-                <!-- Home Slider Item -->
-                <div class="owl-item">
-                    <div class="home_slider_background" style="background-image:url(<?= base_url('foto_carousel/' . $value->foto_carousel) ?>"></div>
-                    <div class="home_slider_content">
-                        <div class="container">
-                            <!-- <div class="row">
+            </div>
+        <?php } ?>
+        <!-- Home Slider Item 3-->
+        <?php
+        foreach ($carousel3 as $key => $value) {
+        ?>
+            <div class="owl-item">
+                <div class="home_slider_background" alt="test" style="background-image:url(<?= base_url('foto_carousel3/' . $value->foto_carousel3) ?>"></div>
+                <div class="home_slider_content">
+                    <div class="container">
+                        <!-- <div class="row">
                                 <div class="col text-center">
                                     <div class="logo_text"> <span>Jasa Raharja</span> Putera</div>
                                     <div class="home_slider_subtitle">Branch Office Bandar Lampung</div>
@@ -56,10 +64,10 @@
                                     </div>
                                 </div>
                             </div> -->
-                        </div>
                     </div>
                 </div>
-
+            </div>
+        <?php } ?>
             </div>
         </div>
         <!-- Home Slider Nav -->
@@ -92,53 +100,69 @@
 
         <div class="row features_row">
             <!-- Features Item -->
+            <?php
+                foreach ($jpAstor as $key => $value) {
+                ?>
             <div class="border col-lg-6 feature_col">
                 <div class="feature text-center trans_400">
                     <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_astor.png"></div>
                     <h3 class="feature_title">Asuransi Kendaraan Bermotor</h3>
                     <div class="feature_text">
-                        <p>JP-ASTOR adalah asuransi kendaraan yang dapat menjamin resiko kerusakan dan atau kehilangan kendaraan.</p>
+                        <p><?= $value->desc1 ?></p>
                     </div>
                     <a href="<?= base_url('User/astor') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
+                <?php } ?>
             </div>
 
             <!-- Features Item -->
             <div class="border col-lg-6 feature_col">
+            <?php
+                foreach ($jpAspri as $key => $value) {
+                ?>
                 <div class="feature text-center trans_400">
                     <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_aspri.png" style="width: 100px; height:100px;"></div>
                     <h3 class="feature_title">Asuransi Kecelakaan Diri</h3>
                     <div class="feature_text">
-                        <p>JP-ASPRI adalah solusi yang tepat untuk memberikan perlindungan pribadi bagi Anda, orang-orang yang Anda sayangi.</p>
+                        <p><?= $value->desc1 ?></p>
                     </div>
                     <a href="<?= base_url('User/aspri') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
             </div>
+            <?php } ?>
         </div>
 
         <div class="row features_row">
             <!-- Features Item -->
+            <?php
+                foreach ($jpGraha as $key => $value) {
+                ?>
             <div class="border col-lg-6 feature_col">
                 <div class="feature text-center trans_400">
                     <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_graha.png" style="width: 100px; height:100px;"></div>
                     <h3 class="feature_title">Asuransi Kebakaran (Properti)</h3>
                     <div class="feature_text">
-                        <p>JP-GRAHA adalah pilihan tepat untuk produk asuransi asset bangunan Anda dan harta benda didalamnya.</p>
+                        <p><?= $value->desc1 ?></p>
                     </div>
                     <a href="<?= base_url('User/graha') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
+                <?php } ?>
             </div>
 
             <!-- Features Item -->
             <div class="border col-lg-6 feature_col">
+            <?php
+                foreach ($jpBonding as $key => $value) {
+                ?>
                 <div class="feature text-center trans_400">
                     <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_bonding.png" style="width: 100px; height:100px;"></div>
                     <h3 class="feature_title">Suretyship</h3>
                     <div class="feature_text">
-                        <p>JP-BONDING Pelopor Surety Bond yang memberikan jaminan dengan standar kualitas internasional bersertifikasi ISO 9001:2000.</p>
+                        <p><?= $value->desc1 ?></p>
                     </div>
                     <a href="<?= base_url('User/bonding') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
+                <?php } ?>
             </div>
         </div><br><br>
 
@@ -159,6 +183,6 @@
                 </div>
             </div>
         </div> <br><br>
-    <?php } ?>
+
     </div>
 </div>

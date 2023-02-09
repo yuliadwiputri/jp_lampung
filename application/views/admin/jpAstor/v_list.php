@@ -62,6 +62,11 @@
                         </tr>
                         <tr>
                             <td><?= $no++; ?></td>
+                            <td><b>Ilustrasi</b></td>
+                            <td><?= $value->ilustrasi?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
                             <td><b>Resiko Yang Dijamin</b></td>
                             <td><?= $value->jaminan ?></td>
                         </tr>

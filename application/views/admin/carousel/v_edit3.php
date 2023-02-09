@@ -12,23 +12,23 @@
             echo validation_errors('<div class="alert alert-danger alert-dismissible">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>','</div>');
 
-            echo form_open_multipart('carousel/edit/'.$carousel->id_carousel);
+            echo form_open_multipart('carousel/edit3/'.$carousel3->id_carousel3);
 
           
             ?>
                 
                 <div class="form-group">
                     
-                    <img src="<?= base_url('foto_carousel/'.$carousel->foto_carousel) ?>" width="150px">
+                    <img src="<?= base_url('foto_carousel3/'.$carousel3->foto_carousel3) ?>" width="150px">
                  </div> 
                  <div class="form-group">
                     <label>Ubah Foto (format foto jpg/png/jpeg/gif dan ukuran maks. 5mb)</label>
-                    <input class="form-control" type="file" name="foto_carousel" placeholder="Foto" >
+                    <input class="form-control" type="file" name="foto_carousel3" placeholder="Foto" >
                     <!-- <p class="help-block">Example block-level help text here.</p> -->
                 </div>
                 <div class="form-group">
                     <label>Keterangan</label>
-                    <input class="form-control" type="text" name="keterangan" value="<?= $carousel->keterangan ?>" >
+                    <input class="form-control" type="text" name="keterangan3" value="<?= $carousel3->keterangan3 ?>" placeholder="Judul">
                                    </div>
                 <div class="form-group" >
                     <button type="submit" class="btn btn-primary">Simpan</button> 
