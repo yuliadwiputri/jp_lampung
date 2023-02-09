@@ -62,14 +62,25 @@
             </div>
             <br>
             <div class="form-group">
-                <textarea name="berkas2" id="editor10" required><?= $jpAspri->berkas2 ?></textarea>
+            <label>Keuntungan</label>
+                <textarea name="keuntungan" id="editor10" required><?= $jpAspri->keuntungan ?></textarea>
             </div>
             <br>
             <div class="form-group">
                
-                <textarea name="berkas3" id="editor11" required><?= $jpAspri->berkas3 ?></textarea>
+                <textarea name="keuntungan1" id="editor11" required><?= $jpAspri->keuntungan1 ?></textarea>
             </div>
             <br>
+            <div class="form-group">
+               
+               <textarea name="keuntungan2" id="editor12" required><?= $jpAspri->keuntungan2 ?></textarea>
+           </div>
+           <br>
+           <div class="form-group">
+               
+               <textarea name="keuntungan3" id="editor5" required><?= $jpAspri->keuntungan3 ?></textarea>
+           </div>
+           <br>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Simpan</button>
                 <button type="reset" class="btn btn-success">Reset</button>

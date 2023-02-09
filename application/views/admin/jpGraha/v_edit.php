@@ -61,6 +61,11 @@
                    <textarea name="lingkup" id="editor8"  required><?= $jpGraha->lingkup ?></textarea>
                 </div>
 <br>
+<div class="form-group">
+                    <label>Ilustrasi </label>
+                   <textarea name="ilustrasi" id="editor13"   required><?= $jpAstor->ilustrasi ?></textarea>
+                </div>
+                <br>
             <div class="form-group">
                 <label>Jaminan Resiko Banjir</label>
                 <textarea name="jaminan1" id="editor9" required><?= $jpGraha->jaminan1 ?></textarea>

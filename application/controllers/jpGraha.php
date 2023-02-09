@@ -31,6 +31,7 @@ class jpGraha extends CI_Controller
         $this->form_validation->set_rules('bangunan', 'bangunan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('harta', 'harta', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('lingkup', 'lingkup ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('ilustrasi', 'ilustrasi ', 'required', array('required' => '%s Harus Diisi'));
          $this->form_validation->set_rules('jaminan1', 'jaminan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('jaminan2', 'jaminan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('jaminan3', 'jaminan ', 'required', array('required' => '%s Harus Diisi')); 
@@ -69,6 +70,7 @@ class jpGraha extends CI_Controller
                     'bangunan' => $this->input->post('bangunan'),
                     'harta' => $this->input->post('harta'),
                     'lingkup' => $this->input->post('lingkup'),
+                    'ilustrasi' => $this->input->post('ilustrasi'),
                     'jaminan1' => $this->input->post('jaminan1'),
                     'jaminan2' => $this->input->post('jaminan2'),
                     'jaminan3' => $this->input->post('jaminan3'),
@@ -102,6 +104,7 @@ class jpGraha extends CI_Controller
         $this->form_validation->set_rules('bangunan', 'bangunan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('harta', 'harta', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('lingkup', 'lingkup ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('ilustrasi', 'ilustrasi', 'required', array('required' => '%s Harus Diisi'));
          $this->form_validation->set_rules('jaminan1', 'jaminan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('jaminan2', 'jaminan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('jaminan3', 'jaminan ', 'required', array('required' => '%s Harus Diisi')); 
@@ -143,6 +146,7 @@ class jpGraha extends CI_Controller
                     'bangunan' => $this->input->post('bangunan'),
                     'harta' => $this->input->post('harta'),
                     'lingkup' => $this->input->post('lingkup'),
+                    'ilustrasi' => $this->input->post('ilustrasi'),
                     'jaminan1' => $this->input->post('jaminan1'),
                     'jaminan2' => $this->input->post('jaminan2'),
                     'jaminan3' => $this->input->post('jaminan3'),
@@ -170,6 +174,7 @@ class jpGraha extends CI_Controller
                 'bangunan' => $this->input->post('bangunan'),
                 'harta' => $this->input->post('harta'),
                 'lingkup' => $this->input->post('lingkup'),
+                'ilustrasi' => $this->input->post('ilustrasi'),
                 'jaminan1' => $this->input->post('jaminan1'),
                 'jaminan2' => $this->input->post('jaminan2'),
                 'jaminan3' => $this->input->post('jaminan3'),

@@ -33,8 +33,10 @@ class jpAspri extends CI_Controller
         $this->form_validation->set_rules('tidak_jaminan', 'Resiko yang  tidak dijamin ', 'required', array('required' => '%s Harus Diisi'));
        
         $this->form_validation->set_rules('berkas1', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('berkas2', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('berkas3', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan1', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan2', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan3', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
 
 
         if ($this->form_validation->run() == TRUE) {
@@ -100,7 +102,10 @@ class jpAspri extends CI_Controller
         $this->form_validation->set_rules('tidak_jaminan', 'Resiko yang  tidak dijamin ', 'required', array('required' => '%s Harus Diisi'));
         
         $this->form_validation->set_rules('berkas2', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('berkas3', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan1', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan2', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('keuntungan3', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
 
 
         if ($this->form_validation->run() == TRUE) {
@@ -140,8 +145,10 @@ class jpAspri extends CI_Controller
                     'tidak_jaminan' => $this->input->post('tidak_jaminan'),
                
                     'berkas1' => $this->input->post('berkas1'),
-                    'berkas2' => $this->input->post('berkas2'),
-                    'berkas3' => $this->input->post('berkas3'),
+                    'keuntungan' => $this->input->post('keuntungan'),
+                    'keuntungan1' => $this->input->post('keuntungan1'),
+                    'keuntungan2' => $this->input->post('keuntungan2'),
+                    'keuntungan3' => $this->input->post('keuntungan3'),
                     'foto_jpAspri' => $upload_data['uploads']['file_name']
 
                 );
@@ -164,9 +171,10 @@ class jpAspri extends CI_Controller
                 'tidak_jaminan' => $this->input->post('tidak_jaminan'),
                
                 'berkas1' => $this->input->post('berkas1'),
-                'berkas2' => $this->input->post('berkas2'),
-                'berkas3' => $this->input->post('berkas3'),
-
+               'keuntungan' => $this->input->post('keuntungan'),
+                    'keuntungan1' => $this->input->post('keuntungan1'),
+                    'keuntungan2' => $this->input->post('keuntungan2'),
+                    'keuntungan3' => $this->input->post('keuntungan3'),
 
             );
             $this->m_jpAspri->edit($data);

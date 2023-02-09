@@ -61,6 +61,11 @@
                         </tr>
                         <tr>
                             <td><?= $no++; ?></td>
+                            <td><b>Ilustrasi</b></td>
+                            <td><?= $value->ilustrasi?></td>
+                        </tr>
+                        <tr>
+                            <td><?= $no++; ?></td>
                             <td><b>Bangunan Yang Dapat Diasuransikan</b></td>
                             <td><?= $value->bangunan ?></td>
                         </tr>

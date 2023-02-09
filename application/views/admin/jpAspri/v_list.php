@@ -74,13 +74,23 @@
                         </tr>
                         <tr>
                         <td><?= $no++; ?></td>
-                        <td><b></b></td>
-                                 <td><?= $value->berkas2 ?></td>
+                        <td><b>Keuntungan</b></td>
+                                 <td><?= $value->keuntungan ?></td>
                         </tr>
                         <tr>
                         <td><?= $no++; ?></td>
                         <td><b></b></td>
-                              <td><?= $value->berkas3 ?></td>
+                              <td><?= $value->keuntungan1 ?></td>
+                        </tr>
+                        <tr>
+                        <td><?= $no++; ?></td>
+                        <td><b></b></td>
+                              <td><?= $value->keuntungan2 ?></td>
+                        </tr>
+                        <tr>
+                        <td><?= $no++; ?></td>
+                        <td><b></b></td>
+                              <td><?= $value->keuntungan3 ?></td>
                         </tr>
 
                   
