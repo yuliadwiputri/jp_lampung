@@ -24,10 +24,10 @@
                     </div>
                     <div class="col">
                         <br><br>
-                        <div class="card border mb-3 shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 100%;">
+                        <div class="card border mb-3 shadow-sm p-1 mb-5 bg-white rounded" style="max-width: 100%;">
                             <div class="card-body">
                                 <div class="card-body text-justify">
-                                    <p class="card-text fs-6"><?= $value->desc2 ?></p><br>
+                                    <p class="card-text fs-5"><?= $value->desc2 ?></p><br>
                                     <div class="d-grid gap-2 d-md-block">
                                         <button class="btn btn-primary fs-6" type="button">Daftar</button>
                                     </div>
@@ -46,14 +46,14 @@
                         <h2 class="section_title">Kelengkapan Berkas Klaim</h2><br><br><br><br>
                     </div>
                     <div class="row text-justify">
-                        <div class="col-lg-4">
+                        <div class="col-lg">
                             <div class="cardShadow">
-                                <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
+                                <div class="card shadow p-1 mb-2 ml-2 bg-white rounded" style="height:25rem">
                                     <h7 class="card-header bg-info text-light border-info fs-6"><b>BID BOND</b></h7>
                                     <div class="card-body text-dark">
                                         <p class="card-text">
                                         <ul>
-                                            <li class="fs-6"><?= $value->berkas1 ?></li>
+                                            <li class="fs-5 ml-0 mr-3"><?= $value->berkas1 ?></li>
                                         </ul>
                                         </p>
                                     </div>
@@ -61,48 +61,14 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg">
                             <div class="cardShadow">
-                                <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
-                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>MAINTENANCE BOND</b></h7>
-                                    <div class="card-body text-dark">
-                                        <p class="card-text">
-                                        <ul>
-                                            <li class="fs-6"><?= $value->berkas2 ?></li>
-                                        </ul>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="cardShadow">
-                                <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
+                                <div class="card shadow p-1 mb-2 ml-2 bg-white rounded " style="height:25rem">
                                     <h7 class="card-header bg-info text-light border-info fs-6"><b>PERFORMANCE BOND</b></h7>
                                     <div class="card-body text-dark">
                                         <p class="card-text">
                                         <ul>
-                                            <li class="fs-6"><?= $value->berkas3 ?></li>
-                                        </ul>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <br><br><br>
-                    <div class="row text-justify">
-                        <div class="col-lg-4">
-                            <div class="cardShadow">
-                                <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
-                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>ADVANCE PAYMENT BOND</b></h7>
-                                    <div class="card-body text-dark">
-                                        <p class="card-text">
-                                        <ul>
-                                            <li class="fs-6"><?= $value->berkas4 ?></li>
+                                            <li class="fs-5 ml-0 mr-3"><?= $value->berkas3 ?></li>
                                         </ul>
                                         </p>
                                     </div>
@@ -110,14 +76,49 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4">
+                        <div class="col-lg">
                             <div class="cardShadow">
-                                <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
+                                <div class="card shadow p-1 mb-2 ml-2 bg-white rounded" style="height:25rem">
+                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>MAINTENANCE BOND</b></h7>
+                                    <div class="card-body text-dark">
+                                        <p class="card-text">
+                                        <ul>
+                                            <li class="fs-5 ml-0 mr-3"><?= $value->berkas2 ?></li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <br>
+                    <div class="row text-justify">
+                        <div class="col-lg">
+                            <div class="cardShadow">
+                                <div class="card shadow p-1 mb-2 ml-2 bg-white rounded" style="height:25rem">
                                     <h7 class="card-header bg-info text-light border-info fs-6"><b>CUSTOM BOND</b></h7>
                                     <div class="card-body text-dark">
                                         <p class="card-text">
                                         <ul>
-                                            <li class="fs-6"><?= $value->berkas5 ?></li>
+                                            <li class="fs-6 ml"><?= $value->berkas5 ?></li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg">
+                            <div class="cardShadow">
+                                <div class="card shadow p-1 mb-2 ml-2 bg-white rounded" style="height:25rem">
+                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>ADVANCE PAYMENT BOND</b></h7>
+                                    <div class="card-body text-dark">
+                                        <p class="card-text">
+                                        <ul>
+                                            <li class="fs-5 ml-0 mr-3"><?= $value->berkas4 ?></li>
                                         </ul>
                                         </p>
                                     </div>

@@ -40,11 +40,11 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6  text-justify">
+                    <div class="col-lg-6 text-justify">
                         <br><br>
                         <div class="card border mb-3 shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 100%;">
                             <div class="card-header">
-                                <h2><b>Ruang Lingkup Pertanggungan</b></h2>
+                                <h3><b>Ruang Lingkup Pertanggungan</b></h3>
                             </div>
                             <div class="card-body">
                                 <div class="card-body"><?= $value->lingkup ?>
@@ -57,110 +57,112 @@
                         <div class="section_title_container text-justify">
                             <div class="section_subtitle">
                                 <div class="card" style="width: 30rem;">
-                                <div class="card-body"><?= $value->ilustrasi ?>
-                                    <!-- <img src="<?= base_url('template\img\jp_astor2.png') ?>" class="card-img-top" alt="..."> -->
+                                    <div class="card-body"><?= $value->ilustrasi ?>
+                                        <!-- <img src="<?= base_url('template\img\jp_astor2.png') ?>" class="card-img-top" alt="..."> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Accordion -->
-            <hr class="style5" style="border-top: 2px solid #08347c">
-            <br>
-            <div class="feature">
-                <div class="feature_background" style="background-image:url(images/courses_background.jpg)"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="section_title_container text-center">
-                                <h2 class="section_title">JAMINAN</h2>
-                            </div>
-                        </div><br><br>
-                    </div>
-                    <div class="row feature_row">
+                <!-- Accordion -->
+                <hr class="style5" style="border-top: 2px solid #08347c">
+                <br>
+                <div class="feature">
+                    <div class="feature_background" style="background-image:url(images/courses_background.jpg)"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="section_title_container text-center">
+                                    <h2 class="section_title">JAMINAN</h2>
+                                </div>
+                            </div><br><br>
+                        </div>
+                        <div class="row feature_row">
 
-                        <!-- Feature Content -->
-                        <div class="col-lg-15 feature_col">
-                            <div class="feature_content">
-                                <!-- Accordions -->
-                                <div class="accordions  text-justify">
-                                    <div class="elements_accordions">
-                                        <div class="accordion_container">
-                                            <div class="accordion d-flex flex-row align-items-center active">
-                                                <div>RESIKO-RESIKO YANG DIJAMIN</div>
+                            <!-- Feature Content -->
+                            <div class="col-lg-15 feature_col">
+                                <div class="feature_content">
+                                    <!-- Accordions -->
+                                    <div class="accordions  text-justify">
+                                        <div class="elements_accordions">
+                                            <div class="accordion_container">
+                                                <div class="accordion d-flex flex-row align-items-center active">
+                                                    <div>RESIKO-RESIKO YANG DIJAMIN</div>
+                                                </div>
+                                                <div class="accordion_panel">
+                                                    <?= $value->jaminan ?> </div>
                                             </div>
-                                            <div class="accordion_panel">
-                                                <?= $value->jaminan ?> </div>
-                                        </div>
 
-                                        <div class="accordion_container">
-                                            <div class="accordion d-flex flex-row align-items-center">
-                                                <div>RESIKO-RESIKO YANG TIDAK DIJAMIN</div>
+                                            <div class="accordion_container">
+                                                <div class="accordion d-flex flex-row align-items-center">
+                                                    <div>RESIKO-RESIKO YANG TIDAK DIJAMIN</div>
+                                                </div>
+                                                <div class="accordion_panel">
+                                                    <?= $value->tidak_jaminan ?> </div>
                                             </div>
-                                            <div class="accordion_panel">
-                                                <?= $value->tidak_jaminan ?> </div>
-                                        </div>
 
-                                        <div class="accordion_container">
-                                            <div class="accordion d-flex flex-row align-items-center">
-                                                <div>JENIS JAMINAN TAMBAHAN</div>
-                                            </div>
-                                            <div class="accordion_panel">
-                                                <?= $value->jenis ?>
+                                            <div class="accordion_container">
+                                                <div class="accordion d-flex flex-row align-items-center">
+                                                    <div>JENIS JAMINAN TAMBAHAN</div>
+                                                </div>
+                                                <div class="accordion_panel">
+                                                    <?= $value->jenis ?>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Accordions End -->
                                 </div>
-                                <!-- Accordions End -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Kelengkapan Berkas -->
-            <div class="container">
-                <br><br><br>
-                <hr class="style5" style="border-top: 2px solid #08347c">
-                <br>
-                <div class="section_title_container text-center">
-                    <h2 class="section_title">Kelengkapan Berkas Klaim</h2><br><br><br><br>
+                <!-- Kelengkapan Berkas -->
+                <div class="container">
+                    <br><br><br>
+                    <hr class="style5" style="border-top: 2px solid #08347c">
+                    <br>
+                    <div class="section_title_container text-center">
+                        <h2 class="section_title">Kelengkapan Berkas Klaim</h2><br>
+                    </div>
+                    <div class="row text-justify">
+                        <div class="col-lg">
+                            <div class="cardShadow">
+                                <div class="card shadow p-3 mb-2 bg-white rounded" style="height: 30rem;">
+                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>1. Partial Loss</b></h7>
+                                    <div class="card-body">
+                                        <?= $value->berkas1 ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row text-justify">
-                    <div class="col-lg-4">
-                        <div class="cardShadow">
-                            <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
-                                <h7 class="card-header bg-info text-light border-info fs-6"><b>1. Partial Loss</b></h7>
-                                <div class="card-body">
-
-                                    <?= $value->berkas1 ?>
+                <div class="container">
+                    <div class="row text-justify">
+                        <div class="col-lg">
+                            <div class="cardShadow">
+                                <div class="card shadow p-1 mb-2 bg-white rounded" style="height:25rem;">
+                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>2. Total Loss</b></h7>
+                                    <div class="card-body">
+                                        <?= $value->berkas2 ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4">
-                        <div class="cardShadow">
-                            <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
-                                <h7 class="card-header bg-info text-light border-info fs-6"><b>2. Total Loss</b></h7>
-                                <div class="card-body">
-
-                                    <?= $value->berkas2 ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="cardShadow">
-                            <div class="card shadow p-3 mb-2 bg-white rounded" style="width: 20rem;">
-                                <h7 class="card-header bg-info text-light border-info fs-6"><b>3. Tuntutan yang melibatkan Pihak III (TJH III), harus disertai:</b></h7>
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <?= $value->berkas3 ?>
-                                    </p>
+                        <div class="col-lg">
+                            <div class="cardShadow">
+                                <div class="card shadow p-1 mb-2 bg-white rounded" style="height:25rem;">
+                                    <h7 class="card-header bg-info text-light border-info fs-6"><b>3. Tuntutan yang melibatkan Pihak III (TJH III), harus disertai:</b></h7>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <?= $value->berkas3 ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
