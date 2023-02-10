@@ -41,7 +41,8 @@
 												<a class="dropdown-item" href="<?= base_url('User/graha') ?>">JP-GRAHA</a>
 											</div>
 										</li>
-										<li><a href="#footer">Contact</a></li>
+										<!-- <li><a href="#footer">Contact</a></li> -->
+										<li ><a href="<?= base_url('User') ?>">Home</a></li>
 										<!-- <li><a href="jrpsyariah.html">JRP Syariah</a></li> -->
 									</ul>
 									<!-- <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div> -->

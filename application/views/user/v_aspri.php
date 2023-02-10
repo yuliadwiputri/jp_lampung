@@ -41,10 +41,8 @@
                     <center>
                         <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                         <br>
-                        <h4 class="section_title" style=" line-height: 1.2em;">DENGAN JP-ASPRI ANDA DAPAT MEMBERIKAN PERLINDUNGAN 24 JAM NON-STOP</h4>
-                        <h4 class="section_title" style=" line-height: 1.2em;">BAGI KELUARGA ANDA, REKAN-REKAN ANDA DAN KARYAWAN ANDA</h4>
-                        <h4 class="section_title" style=" line-height: 1.2em;">DARI RESIKO KECELAKAAN YANG DAPAT TERJADI KAPAN DAN DIMANAPUN BERADA.
-                    </center><br><br>
+                        <h4 class="section_title" style=" line-height: 1.2em;"><?= $value->keuntungan ?></center><br><br>
+
 
                     <div class="row">
                         <div class="col">

@@ -127,6 +127,10 @@
 <script src="<?= base_url() ?>template/front-end/js/custom.js"></script>
 <script src="<?= base_url() ?>template/front-end/plugins/colorbox/jquery.colorbox-min.js"></script>
 <script src="<?= base_url() ?>template/front-end/js/about.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
 </body>
 
 </html>

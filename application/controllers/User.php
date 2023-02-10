@@ -105,6 +105,15 @@ class User extends CI_Controller
         );
         $this->load->view('layout/v_wrapper', $data, FALSE);
     }
+
+    public function contact()
+    {
+        $data = array(
+            'title' => 'Contact | Jasa Raharja Lampung',
+            'isi' => 'v_contact'
+        );
+        $this->load->view('layout/v_wrapper', $data, FALSE);
+    }
 }
 
 /* End of file Controllername.php */
