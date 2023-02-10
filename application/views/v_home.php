@@ -99,71 +99,95 @@
         </div>
 
         <div class="row features_row">
-            <!-- Features Item -->
+            <!-- Features Item 1-->
             <?php
-                foreach ($jpAstor as $key => $value) {
-                ?>
-            <div class="border col-lg-6 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_astor.png"></div>
-                    <h3 class="feature_title">Asuransi Kendaraan Bermotor</h3>
-                    <div class="feature_text">
-                        <p><?= $value->desc1 ?></p>
+            foreach ($jpAstor as $key => $value) {
+            ?>
+                <div class="border col-lg-6 feature_col">
+                    <div class="feature trans_400">
+                        <h4 class="feature_title ml-3">ASURANSI KENDARAAN BERMOTOR</h4>
+                        <div class="row ml-3">
+                            <div class="col-2">
+                                <div class="feature_icon mt-3"><img src="<?= base_url() ?>template\img\jp_astor.png"></div>
+                            </div>
+                            <div class="col-8">
+                                <div class="feature_text">
+                                    <p><?= $value->desc1 ?></p>
+                                    <a href="<?= base_url('User/astor') ?>"><b><u>Lihat Selengkapnya</u></b></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="<?= base_url('User/astor') ?>"><b><u>Lihat Selengkapnya</u></b></a>
-                </div>
                 <?php } ?>
-            </div>
-
-            <!-- Features Item -->
-            <div class="border col-lg-6 feature_col">
-            <?php
-                foreach ($jpAspri as $key => $value) {
-                ?>
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_aspri.png" style="width: 100px; height:100px;"></div>
-                    <h3 class="feature_title">Asuransi Kecelakaan Diri</h3>
-                    <div class="feature_text">
-                        <p><?= $value->desc1 ?></p>
-                    </div>
-                    <a href="<?= base_url('User/aspri') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                 </div>
-            </div>
-            <?php } ?>
+
+                <!-- Features Item 2-->
+                <div class="border col-lg-6 feature_col">
+                    <?php
+                    foreach ($jpAspri as $key => $value) {
+                    ?>
+                        <div class="feature trans_400">
+                            <h3 class="feature_title ml-3">ASURANSI KECELAKAAN DIRI</h3>
+                            <div class="row ml-3">
+                                <div class="col-2">
+                                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_aspri.png"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="feature_text">
+                                        <p><?= $value->desc1 ?></p>
+                                        <a href="<?= base_url('User/aspri') ?>"><b><u>Lihat Selengkapnya</u></b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
         </div>
 
         <div class="row features_row">
-            <!-- Features Item -->
+            <!-- Features Item 3-->
             <?php
-                foreach ($jpGraha as $key => $value) {
-                ?>
-            <div class="border col-lg-6 feature_col">
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_graha.png" style="width: 100px; height:100px;"></div>
-                    <h3 class="feature_title">Asuransi Kebakaran (Properti)</h3>
-                    <div class="feature_text">
-                        <p><?= $value->desc1 ?></p>
+            foreach ($jpGraha as $key => $value) {
+            ?>
+                <div class="border col-lg-6 feature_col">
+                    <div class="feature trans_400">
+                        <h3 class="feature_title ml-3">ASURANSI KEBAKARAN PROPERTI</h3>
+                        <div class="row ml-3">
+                            <div class="col-2">
+                                <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_graha.png"></div>
+                            </div>
+                            <div class="col">
+                                <div class="feature_text">
+                                    <p><?= $value->desc1 ?></p>
+                                    <a href="<?= base_url('User/graha') ?>"><b><u>Lihat Selengkapnya</u></b></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="<?= base_url('User/graha') ?>"><b><u>Lihat Selengkapnya</u></b></a>
-                </div>
                 <?php } ?>
-            </div>
+                </div>
 
-            <!-- Features Item -->
-            <div class="border col-lg-6 feature_col">
-            <?php
-                foreach ($jpBonding as $key => $value) {
-                ?>
-                <div class="feature text-center trans_400">
-                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_bonding.png" style="width: 100px; height:100px;"></div>
-                    <h3 class="feature_title">Suretyship</h3>
-                    <div class="feature_text">
-                        <p><?= $value->desc1 ?></p>
-                    </div>
-                    <a href="<?= base_url('User/bonding') ?>"><b><u>Lihat Selengkapnya</u></b></a>
+                <!-- Features Item 4-->
+                <div class="border col-lg-6 feature_col">
+                    <?php
+                    foreach ($jpBonding as $key => $value) {
+                    ?>
+                        <div class="feature trans_400">
+                            <h3 class="feature_title ml-3">SURETYSHIP</h3>
+                            <div class="row ml-3">
+                                <div class="col-2">
+                                    <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_bonding.png"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="feature_text">
+                                        <p><?= $value->desc1 ?></p>
+                                        <a href="<?= base_url('User/bonding') ?>"><b><u>Lihat Selengkapnya</u></b></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
                 </div>
-                <?php } ?>
-            </div>
         </div><br><br>
 
         <!-- Divider -->

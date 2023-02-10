@@ -140,12 +140,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><br>
                 <div class="container">
                     <div class="row text-justify">
                         <div class="col-lg">
                             <div class="cardShadow">
-                                <div class="card shadow p-1 mb-2 bg-white rounded" style="height:25rem;">
+                                <div class="card shadow p-1 mb-2 bg-white rounded" style="height:22rem;">
                                     <h7 class="card-header bg-info text-light border-info fs-6"><b>2. Total Loss</b></h7>
                                     <div class="card-body">
                                         <?= $value->berkas2 ?>
@@ -156,7 +156,7 @@
 
                         <div class="col-lg">
                             <div class="cardShadow">
-                                <div class="card shadow p-1 mb-2 bg-white rounded" style="height:25rem;">
+                                <div class="card shadow p-1 mb-2 bg-white rounded" style="height:22rem;">
                                     <h7 class="card-header bg-info text-light border-info fs-6"><b>3. Tuntutan yang melibatkan Pihak III (TJH III), harus disertai:</b></h7>
                                     <div class="card-body">
                                         <p class="card-text">

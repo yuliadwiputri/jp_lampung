@@ -12,15 +12,15 @@
 
 							<!-- Footer About -->
 							<div class="footer_section footer_about" id="footer">
-								<div class="footer_logo_container">
+								<div class="footer_title">
 									<a href="#">
-										<div class="footer_logo_text">Jasa Raharja Putera</div>
+										<div class="footer_logo_text">JRP INSURANCE</div>
 									</a>
 								</div>
 								<div class="footer_about_text">
 
-									<p>Email: lampung@jasaraharja-putera.co.id <br>
-										Telp: 07218014081</p>
+									<p>Email: lampung@jrp.co.id <br>
+										Telp: 0812-7180-6261</p>
 
 								</div>
 
@@ -38,23 +38,6 @@
 						</div>
 
 						<div class="col-lg-3 footer_col">
-
-							<!-- Footer links -->
-							<!-- <div class="footer_section footer_links">
-	<div class="footer_title">Contact Us</div>
-	<div class="footer_links_container">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="#">Features</a></li>
-			<li><a href="courses.html">Courses</a></li>
-			<li><a href="#">Events</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">FAQs</a></li>
-		</ul>
-	</div>
-</div> -->
 							<div class="footer_section footer_links">
 								<div class="footer_title" style="line-height: 1em;">Branch Office Bandar Lampung</div>
 								<div class="footer_about_text">
@@ -75,23 +58,6 @@
 
 
 						<div class="col-lg-3 footer_col">
-
-							<!-- Footer links -->
-							<!-- <div class="footer_section footer_links">
-								<div class="footer_title">Contact Us</div>
-								<div class="footer_links_container">
-									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="#">Features</a></li>
-										<li><a href="courses.html">Courses</a></li>
-										<li><a href="#">Events</a></li>
-										<li><a href="#">Gallery</a></li>
-										<li><a href="#">FAQs</a></li>
-									</ul>
-								</div>
-							</div> -->
 							<div class="footer_section footer_links">
 								<div class="footer_title" style="line-height: 1em;">Unit Layanan Curup</div>
 								<div class="footer_about_text">

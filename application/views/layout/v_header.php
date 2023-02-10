@@ -19,7 +19,7 @@
 										</li>
 										<li>
 											<i class="fa fa-phone" aria-hidden="true"></i>
-											<div>(0721) 801 4081</div>
+											<div>0812-7180-6261</div>
 										</li>
 										<li>
 											<i class="fa fa-fax" aria-hidden="true"></i>
