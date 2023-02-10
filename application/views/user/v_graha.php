@@ -6,8 +6,8 @@
             <div class="container">
                 <center>
                     <br><br><br>
-                    <h1 class="section_title"><?= $value->judul ?></h1>
-                    <h2 class="section_title"><?= $value->subjudul ?></h2>
+                    <h2 class="section_title"><?= $value->judul ?></h2>
+                    <h3 class="section_title"><?= $value->subjudul ?></h3>
                     <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                 </center>
                 <br>

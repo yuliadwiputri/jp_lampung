@@ -81,13 +81,13 @@
 
 <div class="features">
     <div class="container">
-        <div class="container justify-content-center ml-5">
-            <div class="row centered">
+        <div class="container justify-content-center">
+            <div class="row centered d-flex justify-content-center">
                 <div class="col-md-5">
                     <div class="section_title_container text-right"><br>
-                        <h2 class="section_title">PERUSAHAAN ASURANSI</h2>
+                        <h3 class="section_title">PERUSAHAAN ASURANSI</h3>
                         <div class="section_subtitle">
-                            <H2>TERKEMUKA</H2>
+                            <h3>TERKEMUKA</h3>
                         </div>
                     </div>
                 </div>
@@ -96,22 +96,22 @@
                     <p class="ml-4 text-justify">Didirikan pada 27 November 1993 di Jakarta , telah memberikan layanan asuransi yang luas kepada masyarakat di seluruh Indonesia selama lebih dari dua dasawarsa.</p>
                 </div>
             </div>
-        </div>
+        </div><br><br>
 
-        <div class="row features_row">
+        <div class="row features_row center d-flex justify-content-center">
             <!-- Features Item 1-->
             <?php
             foreach ($jpAstor as $key => $value) {
             ?>
-                <div class="border col-lg-6 feature_col">
-                    <div class="feature trans_400">
+                <div class="col-lg-5 feature_col">
+                    <div class="feature shadow trans_400">
                         <h4 class="feature_title ml-3">ASURANSI KENDARAAN BERMOTOR</h4>
                         <div class="row ml-3">
                             <div class="col-2">
                                 <div class="feature_icon mt-3"><img src="<?= base_url() ?>template\img\jp_astor.png"></div>
                             </div>
                             <div class="col-8">
-                                <div class="feature_text">
+                                <div class="feature_text text-justify">
                                     <p><?= $value->desc1 ?></p>
                                     <a href="<?= base_url('User/astor') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                                 </div>
@@ -122,18 +122,18 @@
                 </div>
 
                 <!-- Features Item 2-->
-                <div class="border col-lg-6 feature_col">
+                <div class="col-lg-5 feature_col">
                     <?php
                     foreach ($jpAspri as $key => $value) {
                     ?>
-                        <div class="feature trans_400">
+                        <div class="feature shadow trans_400">
                             <h3 class="feature_title ml-3">ASURANSI KECELAKAAN DIRI</h3>
                             <div class="row ml-3">
                                 <div class="col-2">
                                     <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_aspri.png"></div>
                                 </div>
-                                <div class="col">
-                                    <div class="feature_text">
+                                <div class="col-8">
+                                    <div class="feature_text text-justify">
                                         <p><?= $value->desc1 ?></p>
                                         <a href="<?= base_url('User/aspri') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                                     </div>
@@ -142,22 +142,22 @@
                         </div>
                     <?php } ?>
                 </div>
-        </div>
+        </div><br><br>
 
-        <div class="row features_row">
+        <div class="row features_row d-flex justify-content-center">
             <!-- Features Item 3-->
             <?php
             foreach ($jpGraha as $key => $value) {
             ?>
-                <div class="border col-lg-6 feature_col">
-                    <div class="feature trans_400">
+                <div class="col-lg-5 feature_col">
+                    <div class="feature shadow trans_400">
                         <h3 class="feature_title ml-3">ASURANSI KEBAKARAN PROPERTI</h3>
                         <div class="row ml-3">
                             <div class="col-2">
                                 <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_graha.png"></div>
                             </div>
-                            <div class="col">
-                                <div class="feature_text">
+                            <div class="col-8">
+                                <div class="feature_text text-justify">
                                     <p><?= $value->desc1 ?></p>
                                     <a href="<?= base_url('User/graha') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                                 </div>
@@ -168,18 +168,18 @@
                 </div>
 
                 <!-- Features Item 4-->
-                <div class="border col-lg-6 feature_col">
+                <div class="col-lg-5 feature_col">
                     <?php
                     foreach ($jpBonding as $key => $value) {
                     ?>
-                        <div class="feature trans_400">
+                        <div class="feature shadow trans_400">
                             <h3 class="feature_title ml-3">SURETYSHIP</h3>
                             <div class="row ml-3">
                                 <div class="col-2">
                                     <div class="feature_icon"><img src="<?= base_url() ?>template\img\jp_bonding.png"></div>
                                 </div>
-                                <div class="col">
-                                    <div class="feature_text">
+                                <div class="col-8">
+                                    <div class="feature_text text-justify">
                                         <p><?= $value->desc1 ?></p>
                                         <a href="<?= base_url('User/bonding') ?>"><b><u>Lihat Selengkapnya</u></b></a>
                                     </div>
@@ -191,13 +191,13 @@
         </div><br><br>
 
         <!-- Divider -->
-        <div class="container justify-content-center ml-5">
-            <div class="row centered">
+        <div class="container justify-content-center">
+            <div class="row d-flex justify-content-center">
                 <div class="col-md-5">
                     <div class="section_title_container text-right"><br>
-                        <h2 class="section_title">CORE VALUE</h2>
+                        <h3 class="section_title">CORE VALUE</h3>
                         <div class="section_subtitle">
-                            <h2>JASA RAHARJA PUTERA</h2>
+                            <h3>JASA RAHARJA PUTERA</h3>
                         </div>
                     </div>
                 </div>
