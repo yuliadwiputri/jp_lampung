@@ -10,6 +10,7 @@ class Carousel extends CI_Controller
         $this->load->model('m_carousel');
         $this->load->model('m_carousel2');
         $this->load->model('m_carousel3');
+        $this->load->model('m_carousel4');
     }
 
     public function index()
@@ -20,6 +21,7 @@ class Carousel extends CI_Controller
             'carousel' => $this->m_carousel->list(),
             'carousel2' => $this->m_carousel2->list(),
             'carousel3' => $this->m_carousel3->list(),
+            'carousel4' => $this->m_carousel4->list(),
             'isi' => 'admin/carousel/v_list'
         );
         $this->load->view('admin/layout/v_wrapper', $data, FALSE);
@@ -298,6 +300,85 @@ class Carousel extends CI_Controller
         $this->session->set_flashdata('pesan', 'Data berhasil dihapus');
         redirect('carousel');
     }
-}
+
+    //carousel 4
+ public function edit4($id_carousel4)
+ {
+     $this->form_validation->set_rules('keterangan4', 'Keterangan ', 'required', array('required' => '%s Harus Diisi'));
+
+
+
+     if ($this->form_validation->run() == TRUE) {
+         $config['upload_path']        = './foto_carousel4/';
+         $config['allowed_types']        = 'gif|jpg|png|jpeg';
+         $config['max_size']             = 5000;
+         $this->upload->initialize($config);
+         if (!$this->upload->do_upload('foto_carousel4')) {
+
+             $data = array(
+                 'title' => 'Protector for Protection',
+                 'title2' => '',
+                 'error' => $this->upload->display_errors(),
+                 'carousel4' => $this->m_carousel4->detail($id_carousel4),
+                 'isi' => 'admin/carousel/v_edit4'
+
+             );
+             $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+         } else {
+             $upload_data = array('uploads' => $this->upload->data());
+             $config['image_library'] = 'gd2';
+             $config['source_image'] = './foto_carousel4/' . $upload_data['uploads']['file_name'];
+             $this->load->library('image_lib', $config);
+             //hapus yg lma
+             $carousel4 = $this->m_carousel4->detail($id_carousel4);
+             if ($carousel4->foto_carousel4 != "") {
+                 unlink('./foto_carousel4/' . $carousel4->foto_carousel4);
+             }
+             $data = array(
+                 'id_carousel4' => $id_carousel4,
+                 'keterangan4' => $this->input->post('keterangan4'),
+
+                 'foto_carousel4' => $upload_data['uploads']['file_name']
+
+             );
+             $this->m_carousel4->edit($data);
+             $this->session->set_flashdata('pesan', 'Data Berhasil Di Reposting');
+             redirect('carousel');
+         }
+         $data = array(
+             'id_carousel4' => $id_carousel4,
+             'keterangan4' => $this->input->post('keterangan4'),
+
+
+         );
+         $this->m_carousel4->edit($data);
+         $this->session->set_flashdata('pesan', 'Data Berhasil Di Reposting');
+         redirect('carousel');
+     }
+     $data = array(
+         'title' => 'Protector for Protection',
+         'title2' => '',
+         'carousel4' => $this->m_carousel4->detail($id_carousel4),
+         'isi' => 'admin/carousel/v_edit4'
+     );
+     $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+ }
+ public function delete4($id_carousel4)
+ {
+     $carousel4 = $this->m_carousel4->detail($id_carousel4);
+     if ($carousel4->foto_carousel4 != "") {
+         unlink('./foto_carousel4/' . $carousel4->foto_carousel4);
+     }
+     $data = array(
+         'id_carousel4' => $id_carousel4,
+
+     );
+     $this->m_carousel4->delete($data);
+     $this->session->set_flashdata('pesan', 'Data berhasil dihapus');
+     redirect('carousel');
+ }
+
+
+    }
 
 /* End of file Carousel.php */

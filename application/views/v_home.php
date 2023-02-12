@@ -68,6 +68,28 @@
                 </div>
             </div>
         <?php } ?>
+
+        <!-- Home Slider Item 4-->
+<?php
+foreach ($carousel4 as $key => $value) {
+?>
+    <div class="owl-item">
+        <div class="home_slider_background" alt="test" style="background-image:url(<?= base_url('foto_carousel4/' . $value->foto_carousel4) ?>"></div>
+        <div class="home_slider_content">
+            <div class="container">
+                <!-- <div class="row">
+                        <div class="col text-center">
+                            <div class="logo_text"> <span>Jasa Raharja</span> Putera</div>
+                            <div class="home_slider_subtitle">Branch Office Bandar Lampung</div>
+                            <div class="home_slider_form_container">
+                            </div>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+    </div>
+<?php } ?>
+ 
             </div>
         </div>
         <!-- Home Slider Nav -->

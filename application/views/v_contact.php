@@ -28,7 +28,7 @@
                     <!-- Contact Form -->
                     <div class="col-lg-6">
                         <div class="contact_form">
-                            <div class="contact_info_title">Contact Form</div>
+                            <!-- <div class="contact_info_title">Contact Form</div>
                             <form action="#" class="comment_form">
                                 <div>
                                     <div class="form_title">Name</div>
@@ -46,13 +46,13 @@
                                     <button type="submit" class="comment_button trans_200">submit now</button>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- Contact Info -->
                     <div class="col-lg-6">
                         <div class="contact_info">
-                            <div class="contact_info_title">Contact Info</div>
+                            <!-- <div class="contact_info_title">Contact Info</div>
                             <div class="contact_info_text">
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a distribution of letters.</p>
                             </div>
@@ -70,20 +70,34 @@
                                     <li>Forrest Ray, 191-103 Integer Rd, Corona Australia</li>
                                     <li>1-234-567-89011</li>
                                     <li>info.deercreative@gmail.com</li>
-                                </ul>
+                                </ul> -->
                             </div>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> 
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
 </div>
 <script>
-    const map = L.map('map').setView([51.505, -0.09], 13);
+    const map = L.map('map').setView([-5.431487, 105.261850], 13);
 
     const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
-</script>
+
+    const marker = L.marker([-5.431487, 105.261850]).addTo(map)
+		.bindPopup('Branch Office Bandar Lampung').openPopup();
+
+    const marker1 = L.marker([-3.474373, 102.533856]).addTo(map)
+		.bindPopup('Unit Layanan Curup').openPopup();
+
+        const marker2 = L.marker([-5.868131524375194, 105.75534740170127]).addTo(map)
+		.bindPopup('Unit Layanan Klaim Bakauheni').openPopup();
+
+        const marker3 = L.marker([-3.798568029870107, 102.27109680299276]).addTo(map)
+		.bindPopup('Marketing Officer Bengkulu').openPopup();
+
+        
+</script><a href=""></a>

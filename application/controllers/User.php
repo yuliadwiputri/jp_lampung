@@ -16,6 +16,7 @@ class User extends CI_Controller
         $this->load->model('m_carousel');
         $this->load->model('m_carousel2');
         $this->load->model('m_carousel3');
+        $this->load->model('m_carousel4');
         
     }
 
@@ -26,6 +27,7 @@ class User extends CI_Controller
             'carousel' => $this->m_carousel->list(),
             'carousel2' => $this->m_carousel2->list(),
             'carousel3' => $this->m_carousel3->list(),
+            'carousel4' => $this->m_carousel4->list(),
             'jpAstor' => $this->m_jpAstor->list(),
             'jpBonding' => $this->m_jpBonding->list(),
             'jpAspri' => $this->m_jpAspri->list(),
