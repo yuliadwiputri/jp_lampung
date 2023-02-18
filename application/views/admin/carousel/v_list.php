@@ -49,7 +49,7 @@
 
 
                             <td><img src="<?= base_url('foto_carousel2/' . $value->foto_carousel2) ?>" width="100px"></td>
-                            <td>><?= $value->keterangan2 ?></td>
+                            <td><?= $value->keterangan2 ?></td>
                             <td>
                                 <a href="<?= base_url('carousel/edit2/' . $value->id_carousel2) ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i> Edit </a>
                                 <a href="<?= base_url('carousel/delete2/' . $value->id_carousel2) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>

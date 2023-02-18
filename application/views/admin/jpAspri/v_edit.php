@@ -83,7 +83,7 @@
            <br>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Simpan</button>
-                <button type="reset" class="btn btn-success">Reset</button>
+                <!-- <button type="reset" class="btn btn-success">Reset</button> -->
             </div>
 <br>
         </div>
