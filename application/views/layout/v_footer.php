@@ -8,7 +8,7 @@
 				<div class="footer_content">
 					<div class="row">
 
-						<div class="col-lg-3 footer_col">
+						<div class="col-lg footer_col">
 
 							<!-- Footer About -->
 							<div class="footer_section footer_about" id="footer">
@@ -32,12 +32,20 @@
 										<li><a href="https://www.youtube.com/@jrp_lampung5849" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 										<!-- <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
 									</ul>
+								</div><br><br>
+
+								<!-- Footer links -->
+								<div class="footer_section footer_about">
+									<div class="footer_title">Mobile</div>
+									<div class="footer_mobile_content">
+										<div class="footer_image"><a href="https://play.google.com/store/apps/details?id=id.co.jasaraharjaputera.smartinsurance.jpcustomer&gl=US" target="_blank"><img src="<?= base_url() ?>template/front-end/images/mobile_1.png" alt=""></a></div>
+										<div class="footer_image"><a href="https://apps.apple.com/id/app/ezurance-smart-customer/id1603040828" target="_blank"><img src="<?= base_url() ?>template/front-end/images/mobile_2.png" alt=""></a></div>
+									</div>
 								</div>
 							</div>
-
 						</div>
 
-						<div class="col-lg-3 footer_col">
+						<div class="col-lg footer_col">
 							<div class="footer_section footer_links">
 								<div class="footer_title" style="line-height: 1em;">Branch Office Bandar Lampung</div>
 								<div class="footer_about_text">
@@ -52,12 +60,9 @@
 									</p>
 								</div>
 							</div>
-
 						</div>
 
-
-
-						<div class="col-lg-3 footer_col">
+						<div class="col-lg footer_col">
 							<div class="footer_section footer_links">
 								<div class="footer_title" style="line-height: 1em;">Unit Layanan Curup</div>
 								<div class="footer_about_text">
@@ -69,22 +74,20 @@
 									<p>Bakauheni, Kec. Bakauheni, Kab. Lampung Selatan</p>
 								</div>
 							</div>
-
 						</div>
 
-						<div class="col-lg-3 footer_col clearfix">
+						<div class="col-lg-4 footer_col">
+							<div class="footer_section footer_links">
+								<div class="footer_title" style="line-height: 1em;">Lokasi</div>
+								<div class="footer_about_text">
+									<!-- Google Map -->
+									<div class="col">
+										<div id="map" style="height: 250px; width:270px"></div>
 
-							<!-- Footer links -->
-							<div class="footer_section footer_mobile">
-								<div class="footer_title">Mobile</div>
-								<div class="footer_mobile_content">
-									<div class="footer_image"><a href="https://play.google.com/store/apps/details?id=id.co.jasaraharjaputera.smartinsurance.jpcustomer&gl=US" target="_blank"><img src="<?= base_url() ?>template/front-end/images/mobile_1.png" alt=""></a></div>
-									<div class="footer_image"><a href="https://apps.apple.com/id/app/ezurance-smart-customer/id1603040828" target="_blank"><img src="<?= base_url() ?>template/front-end/images/mobile_2.png" alt=""></a></div>
+									</div>
 								</div>
 							</div>
-
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -130,6 +133,39 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+<script>
+	const map = L.map('map').setView([-5.431487, 105.261850], 5);
+
+	const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	}).addTo(map);
+
+	// const marker = L.marker([-5.431487, 105.261850]).addTo(map)
+	// 	.bindPopup('Branch Office Bandar Lampung').openPopup();
+
+	// const marker1 = L.marker([-3.474373, 102.533856]).addTo(map)
+	// 	.bindPopup('Unit Layanan Curup').openPopup();
+
+	// const marker2 = L.marker([-5.868131524375194, 105.75534740170127]).addTo(map)
+	// 	.bindPopup('Unit Layanan Klaim Bakauheni').openPopup();
+
+	// const marker3 = L.marker([-3.798568029870107, 102.27109680299276]).addTo(map)
+	// 	.bindPopup('Marketing Officer Bengkulu').openPopup();
+
+	const marker = L.marker([-5.431487, 105.261850])
+		.bindPopup('<a href="https://goo.gl/maps/k12we3M6J9Hs3St29" target="_blank" rel="">Branch Office Bandar Lampung</a>').addTo(map);
+
+	const marker1 = L.marker([-3.474373, 102.533856])
+		.bindPopup('<a href="https://goo.gl/maps/htqTi414e9TKWta89" target="_blank" rel="">Unit Layanan Curup</a>').addTo(map);
+
+	const marker2 = L.marker([-5.868131524375194, 105.75534740170127])
+		.bindPopup('<a href="https://goo.gl/maps/VD5MyokXPwBiFo1K6" target="_blank" rel="">Unit Layanan Klaim Bakauheni</a>').addTo(map);
+
+	const marker3 = L.marker([-3.798568029870107, 102.27109680299276])
+		.bindPopup('<a href="https://goo.gl/maps/uYgGofksMGb1Qn8J6" target="_blank" rel="">Marketing Officer Bengkulu</a>').addTo(map);
+</script><a href=""></a>
 
 </body>
 

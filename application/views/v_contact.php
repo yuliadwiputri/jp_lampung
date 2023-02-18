@@ -11,17 +11,7 @@
         <div class="contact_info_container">
             <div class="container">
                 <div class="row">
-                    <div class="contact_map">
-
-                        <!-- Google Map -->
-
-
-                        <div class="col">
-                            <div id="map" style="height: 200px;"></div>
-
-                        </div>
-
-                    </div>
+                    
                 </div>
                 <div class="row">
 
@@ -79,7 +69,7 @@
         </div> 
     </div>
 </div>
-<script>
+<!-- <script>
     const map = L.map('map').setView([-5.431487, 105.261850], 13);
 
     const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -98,6 +88,4 @@
 
         const marker3 = L.marker([-3.798568029870107, 102.27109680299276]).addTo(map)
 		.bindPopup('Marketing Officer Bengkulu').openPopup();
-
-        
-</script><a href=""></a>
+</script><a href=""></a> -->
