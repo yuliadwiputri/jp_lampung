@@ -158,13 +158,13 @@
 		.bindPopup('<a href="https://goo.gl/maps/k12we3M6J9Hs3St29" target="_blank" rel="">Branch Office Bandar Lampung</a>').addTo(map);
 
 	const marker1 = L.marker([-3.474373, 102.533856])
-		.bindPopup('<a href="https://goo.gl/maps/htqTi414e9TKWta89" target="_blank" rel="">Unit Layanan Curup</a>').addTo(map);
+		.bindPopup('<a href="https://goo.gl/maps/dueV2kanAThe5vhY8" target="_blank" rel="">Unit Layanan Curup</a>').addTo(map);
 
-	const marker2 = L.marker([-5.868131524375194, 105.75534740170127])
-		.bindPopup('<a href="https://goo.gl/maps/VD5MyokXPwBiFo1K6" target="_blank" rel="">Unit Layanan Klaim Bakauheni</a>').addTo(map);
+	const marker2 = L.marker([-5.86801, 105.75462])
+		.bindPopup('<a href="https://goo.gl/maps/zLDNs9JbETWJhM8D8" target="_blank" rel="">Unit Layanan Klaim Bakauheni</a>').addTo(map);
 
-	const marker3 = L.marker([-3.798568029870107, 102.27109680299276])
-		.bindPopup('<a href="https://goo.gl/maps/uYgGofksMGb1Qn8J6" target="_blank" rel="">Marketing Officer Bengkulu</a>').addTo(map);
+	const marker3 = L.marker([-3.79950, 102.27125])
+		.bindPopup('<a href="https://goo.gl/maps/x5S8W4crFW4srUoX9" target="_blank" rel="">Marketing Officer Bengkulu</a>').addTo(map);
 </script><a href=""></a>
 
 </body>

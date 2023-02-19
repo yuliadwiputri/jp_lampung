@@ -49,8 +49,8 @@
                             <div class="team_item">
                                 <div class="team_image"><img src="<?= base_url('template\img\pom.png') ?>" alt="pom" width="100px" class="mt-5 ml-5"></div>
                                 <div class="team_body">
-                                    <div class="team_title"><a href="#">KETENANGAN PIKIRAN</a></div>
-                                    <div class="team_subtitle">Jalani tujuanmu tanpa harus khawatir, kami bersamamu.</div>
+                                    <!-- <div class="team_title"><a href="#">KETENANGAN PIKIRAN</a></div> -->
+                                    <div class="team_title"><?= $value->keuntungan1 ?></div>
                                 </div>
                             </div>
                         </div>
@@ -58,8 +58,8 @@
                             <div class="team_item">
                                 <div class="team_image"><img src="<?= base_url('template\img\dream.png') ?>" alt="pom" width="100px" class="mt-5 ml-5"></div>
                                 <div class="team_body">
-                                    <div class="team_title"><a href="#">TETAPKAN JALAN MIMPIMU</a></div>
-                                    <div class="team_subtitle">Wujudkan cita - citamu serta gapai mimpimu dengan keyakinan dengan pelayanan kami.</div>
+                                    <div class="team_title"><?= $value->keuntungan2 ?></div>
+                                    <!-- <div class="team_subtitle">Wujudkan cita - citamu serta gapai mimpimu dengan keyakinan dengan pelayanan kami.</div> -->
                                 </div>
                             </div>
                         </div>
@@ -67,8 +67,10 @@
                             <div class="team_item">
                                 <div class="team_image"><img src="<?= base_url('template\img\diamond.png') ?>" alt="pom" width="100px" class="mt-5 ml-5"></div>
                                 <div class="team_body">
-                                    <div class="team_title"><a href="#">CAKUPAN YANG LUAS</a></div>
+                                <div class="team_title"><?= $value->keuntungan3 ?></div>
+                                    <!-- <div class="team_title"><a href="#">CAKUPAN YANG LUAS</a></div>
                                     <div class="team_subtitle">Dapatkan keuntungan dalam cakupan yang luas dalam penanganan kesehatan anda dan keluarga.</div>
+                                </div> -->
                                 </div>
                             </div>
                         </div>
@@ -91,7 +93,7 @@
                                     <div class="card shadow p-3 mb-2 bg-white rounded">
                                         <div class="card-body">
                                             <p class="card-text">
-                                            <ul style="list-style-type:circle">
+                                            <ul style="">
                                                 <li class="fs-6 text-dark"><?= $value->berkas1 ?><br>
                                                 </li>
                                             </ul>

@@ -101,7 +101,7 @@ class jpAspri extends CI_Controller
         $this->form_validation->set_rules('kelebihan', 'Resiko yang dijamin ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('tidak_jaminan', 'Resiko yang  tidak dijamin ', 'required', array('required' => '%s Harus Diisi'));
         
-        $this->form_validation->set_rules('berkas2', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('berkas1', 'Berkas ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('keuntungan', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('keuntungan1', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
         $this->form_validation->set_rules('keuntungan2', 'Keuntungan ', 'required', array('required' => '%s Harus Diisi'));
