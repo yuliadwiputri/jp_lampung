@@ -6,11 +6,11 @@
                         <ul class="nav" id="side-menu">
                           
                             <li class="active">
-                                <a href="<?= base_url('carousel') ?>"><i class="fa fa-dashboard fa-fw"></i> Carousel</a>
+                                <a href="<?= base_url('carousel') ?>"><i class="fa fa-area-chart fa-fw"></i> Carousel</a>
                             </li>
                          
                             <li>
-                                <a href="#"><i class="fa fa-newspaper-o fa-fw"></i> About Us<span class="fa arrow"></span></a>
+                                <a href="#"><i class="fa fa-university fa-fw"></i> About Us<span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
                                     <li>
                                         <a href="<?= base_url('sejarah') ?>">Sejarah </a>
@@ -39,15 +39,8 @@
                                   
                                 </ul>
                             </li>
-                            <!-- <li class="active">
-                                <a href="<?= base_url('dataProfil') ?>"><i class="fa fa-user fa-fw"></i> Edit Data Profil</a>
-                            </li> -->
-
-                           
                             <li class="active">
                                 <a href="<?= base_url('adminJP/logout')?>"><i class="fa fa-sign-out"></i> Logout</a>
-                                
-                                <!-- /.nav-second-level -->
                             </li>
                         </ul>
                     </div>
