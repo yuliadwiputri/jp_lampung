@@ -29,8 +29,8 @@
                                 <p class="card-text fs-6"><?= $value->desc1 ?></p>
                                 <p class="fs-6"><?= $value->desc2 ?></p><br>
                                 <div class="d-grid gap-2 d-md-block">
-                                    <button class="btn btn-primary fs-6" type="button">Daftar Asuransi Motor</button>
-                                    <button class="btn btn-primary fs-6" type="button">Daftar Asuransi Mobi</button>
+                                    <a href="https://forms.gle/wW94jadRyajJAYcL8"><button class="btn btn-primary fs-6" type="button">Daftar Asuransi Motor</button></a>
+                                    <a href="https://forms.gle/Et4kUijNXSE931d77"><button class="btn btn-primary fs-6" type="button">Daftar Asuransi Mobil</button></a>
                                 </div>
                             </div>
                         </div>

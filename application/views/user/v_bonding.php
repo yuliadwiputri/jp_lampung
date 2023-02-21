@@ -29,7 +29,8 @@
                                 <div class="card-body text-justify">
                                     <p class="card-text fs-5"><?= $value->desc2 ?></p><br>
                                     <div class="d-grid gap-2 d-md-block">
-                                        <button class="btn btn-primary fs-6" type="button">Daftar</button>
+                                       <a href="https://forms.gle/6jmVJzBNuB8DrUic9"><button 
+                                       class="btn btn-primary fs-6" type="button">Daftar</button></a> 
                                     </div>
                                 </div>
                             </div>

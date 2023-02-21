@@ -29,7 +29,7 @@
                                 <div class="card-body text-justify">
                                     <p class="card-text fs-6"><?= $value->desc2 ?></p><br>
                                     <div class="d-grid gap-2 d-md-block">
-                                        <button class="btn btn-primary fs-6" type="button">Daftar</button>
+                                        <a href="https://forms.gle/5ZX1PEEGsNiAENeK7"><button class="btn btn-primary fs-6" type="button">Daftar</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,8 @@
                     <center>
                         <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                         <br>
-                        <h4 class="section_title" style=" line-height: 1.2em;"><?= $value->keuntungan ?></center><br><br>
+                        <h4 class="section_title" style=" line-height: 1.2em;"><?= $value->keuntungan ?>
+                    </center><br><br>
 
 
                     <div class="row">
@@ -67,7 +68,7 @@
                             <div class="team_item">
                                 <div class="team_image"><img src="<?= base_url('template\img\diamond.png') ?>" alt="pom" width="100px" class="mt-5 ml-5"></div>
                                 <div class="team_body">
-                                <div class="team_title"><?= $value->keuntungan3 ?></div>
+                                    <div class="team_title"><?= $value->keuntungan3 ?></div>
                                     <!-- <div class="team_title"><a href="#">CAKUPAN YANG LUAS</a></div>
                                     <div class="team_subtitle">Dapatkan keuntungan dalam cakupan yang luas dalam penanganan kesehatan anda dan keluarga.</div>
                                 </div> -->
