@@ -29,7 +29,7 @@
                                 <div class="card-body text-justify">
                                     <p class="card-text fs-6"><?= $value->desc2 ?></p>
                                     <div class="d-grid gap-2 d-md-block">
-                                        <button class="btn btn-primary fs-6" type="button">Daftar</button>
+                                        <a href="https://forms.gle/nJTZQaEpUnvuwDt87"> <button class="btn btn-primary fs-6" type="button">Daftar</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -63,8 +63,8 @@
                             <br>
                             <div class="section_title_container text-justify">
                                 <div class="section_subtitle">
-                                    <div class="card" style="width: 30rem;">
-                                        <img src="<?= base_url('template\img\graha.png') ?>" class="card-img-top" alt="...">
+                                    <div class="card" style="width: 30rem;"><?= $value->ilustrasi ?>
+                                        <!-- <img src="" class="card-img-top" alt="..."> -->
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                 <!-- Kelengkapan Berkas -->
                 <div class="container">
                     <center>
-                    <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
+                        <h2 class="style5" style="border-top: 5px solid #08347c; width:100px;"></h2>
                     </center>
                     <br>
                     <div class="section_title_container text-center">
