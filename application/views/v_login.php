@@ -30,8 +30,24 @@
         <![endif]-->
 </head>
 
-<body>
+<body >
+<style type="text/css">
 
+body {
+
+background-image:url('template/jp.png');
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+background-size: cover;
+
+color: black;
+
+}
+
+</style>
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
@@ -61,6 +77,7 @@
                            
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                <a href="<?= base_url('lupa_password') ?>"><b><u>Lupa Password</u></b></a>
                             </div>
                             <!-- Change this to a button or input when using this as a form -->
                             <!-- <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a> -->

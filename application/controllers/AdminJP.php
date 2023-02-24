@@ -13,7 +13,7 @@ class AdminJP extends CI_Controller {
         if ($this->form_validation->run() == TRUE) {
             $username=$this->input->post('username');
             $password=$this->input->post('password');
-            $this->user_login->login($username,$password);
+            $this->user_login->login($username,md5($password));
 
         } 
         
