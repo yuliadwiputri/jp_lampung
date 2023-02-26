@@ -62,16 +62,16 @@ if($user['is_active']==1){
   {
     $this->session->unset_userdata('email');
     $this->session->unset_userdata('role_id');
-    $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">logout</div>');    
+    $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Logout</div>');    
     redirect('auth');
   }
     public function registration(){
        
-        $this->form_validation->set_rules('name','Nama', 'required|trim');
-        $this->form_validation->set_rules('email','Email', 'required|trim|valid_email|is_unique[user.email]',['is_unique'=>'this email already registered']);
-        $this->form_validation->set_rules('password1','Password', 'required|trim|min_length[3]|matches[password2]',[
-            'matches'=>'password dont match', 
-            'min_length'=>'password too short']);
+        $this->form_validation->set_rules('name','Name', 'required|trim');
+        $this->form_validation->set_rules('email','Email', 'required|trim|valid_email|is_unique[user.email]',['is_unique'=>'This email already registered']);
+        $this->form_validation->set_rules('password1','Password', 'required|trim|min_length[8]|matches[password2]',[
+            'matches'=>'Password Dont Match', 
+            'min_length'=>'Password Too Short']);
         $this->form_validation->set_rules('password2','Password', 'required|trim');
 
         if($this->form_validation->run()==false){
@@ -83,9 +83,8 @@ if($user['is_active']==1){
             $data=[
                 'name'=>htmlspecialchars($this->input->post('name',true)) ,
                 'email'=> htmlspecialchars($email),
-                'image'=> 'default.jpg',
                 'password'=>password_hash($this->input->post('password1'),PASSWORD_DEFAULT),
-                'role_id'=>2,
+                'role_id'=>1,
                 'is_active'=>0,
                 'date_created'=>time()
 
@@ -159,15 +158,15 @@ if($user['is_active']==1){
                }else{
                 $this->db->delete('user',['email'=>$email]);
                 $this->db->delete('user_token',['email'=>$email]);
-                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">account activation failed : token expired</div>');    
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Account Activation Failed : Token Expired</div>');    
                 redirect('auth');
                }
             }else{
-                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">account activation failed : Wrong token</div>');    
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Account Activation Failed : Wrong Token</div>');    
                 redirect('auth');
             }
         }else{
-             $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">account activation failed : Wrong email</div>');    
+             $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Account Activation Failed : Wrong Email</div>');    
     redirect('auth');
         }
     }
@@ -235,9 +234,9 @@ if($user['is_active']==1){
         if(!$this->session->userdata('reset_email')){
             redirect('auth');
         }
-        $this->form_validation->set_rules('password1','Password', 'required|trim|min_length[3]|matches[password2]',[
-            'matches'=>'password dont match', 
-            'min_length'=>'password too short']);
+        $this->form_validation->set_rules('password1','Password', 'required|trim|min_length[8]|matches[password2]',[
+            'matches'=>'Password Dont Match', 
+            'min_length'=>'Password Too Short']);
         $this->form_validation->set_rules('password2','Password', 'required|trim');
 
         if($this->form_validation->run()==false){
@@ -253,7 +252,7 @@ if($user['is_active']==1){
         $this->db->update('user');
         $this->db->delete('user_token', ['email'=>$email]);
         $this->session->unset_userdata('reset_email');
-        $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Password has been charged! Please login.</div>');    
+        $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Password has been changed! Please login.</div>');    
     redirect('auth');
     }
 }

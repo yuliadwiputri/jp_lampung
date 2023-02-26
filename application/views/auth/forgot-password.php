@@ -24,7 +24,7 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-user"
                                         id="email" name="email"
-                                        placeholder="Enter Email Address...">
+                                        placeholder="Email Address">
                                         <?= form_error('email',' <small class="text-danger pl-3">','</small>'); ?>
                                 </div>
                                 

@@ -25,13 +25,13 @@
                                 <div class="form-group">
                                     <input type="password" class="form-control form-control-user"
                                         id="password1" name="password1"
-                                        placeholder="Enter New Password...">
+                                        placeholder="Enter New Password">
                                         <?= form_error('password1',' <small class="text-danger pl-3">','</small>'); ?>
                                 </div>
                                 <div class="form-group">
                                     <input type="password" class="form-control form-control-user"
                                         id="password2" name="password2"
-                                        placeholder="Repeat New Password...">
+                                        placeholder="Repeat New Password">
                                         <?= form_error('password2',' <small class="text-danger pl-3">','</small>'); ?>
                                 </div>
                                 

@@ -24,7 +24,7 @@
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user"
                                                 id="email" name="email"
-                                                placeholder="Enter Email Address...">
+                                                placeholder="Email Address">
                                                 <?= form_error('email',' <small class="text-danger pl-3">','</small>'); ?>
                                         </div>
                                         <div class="form-group">
@@ -40,10 +40,10 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="<?= base_url('auth/forgotPassword'); ?>">Forgot Password?</a>
+                                        <a class="small" href="<?= base_url('auth/forgotPassword'); ?>">Forgot Password ?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="<?= base_url('auth/registration'); ?>">Create an Account!</a>
+                                        <a class="small" href="<?= base_url('auth/registration'); ?>">Create an Account</a>
                                         <br>
                                         <br>
                                         <br>

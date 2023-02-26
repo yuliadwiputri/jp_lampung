@@ -80,8 +80,8 @@ class Sejarah extends CI_Controller
 
     public function edit($id_sejarah)
     {
-        $this->form_validation->set_rules('desc1', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
-        $this->form_validation->set_rules('desc2', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('desc1', 'Deskripsi Sejarah', 'required', array('required' => '%s Harus Diisi'));
+        $this->form_validation->set_rules('desc2', 'Deskripsi Sejarah', 'required', array('required' => '%s Harus Diisi'));
         // $this->form_validation->set_rules('desc3', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
         // $this->form_validation->set_rules('desc4', 'Deskripsi sejarah', 'required', array('required' => '%s Harus Diisi'));
 
