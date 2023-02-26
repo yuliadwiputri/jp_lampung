@@ -40,7 +40,7 @@
                                 </ul>
                             </li>
                             <li class="active">
-                                <a href="<?= base_url('adminJP/logout')?>"><i class="fa fa-sign-out"></i> Logout</a>
+                                <a href="<?= base_url('auth/logout')?>"><i class="fa fa-sign-out"></i> Logout</a>
                             </li>
                         </ul>
                     </div>

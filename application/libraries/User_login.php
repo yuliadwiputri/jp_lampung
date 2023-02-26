@@ -34,19 +34,19 @@ class User_login
   }
   public function cek_login()
   {
-    if ($this->ci->session->userdata('username') == "") {
-      $this->ci->session->set_flashdata('pesan', 'Silakan Login Untuk Mengakses Sistem');
-      redirect('adminJP');
-    }
+    // if ($this->ci->session->userdata('username') == "") {
+    //   $this->ci->session->set_flashdata('pesan', 'Silakan Login Untuk Mengakses Sistem');
+    //   redirect('auth');
+    // }
   }
 
   public function logout()
   {
     $this->ci->session->unset_userdata('username');
     $this->ci->session->unset_userdata('nama_user');
-    $this->ci->session->unset_userdata('level');
+    // $this->ci->session->unset_userdata('level');
     $this->ci->session->set_flashdata('pesan', 'Logout Berhasil');
-    redirect('adminJP');
+    redirect('auth');
   }
 }
 

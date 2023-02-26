@@ -7,6 +7,9 @@ class Carousel extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+        if(!$this->session->userdata('email')){
+            redirect('auth');
+        }
         $this->load->model('m_carousel');
         $this->load->model('m_carousel2');
         $this->load->model('m_carousel3');
