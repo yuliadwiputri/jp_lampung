@@ -1,8 +1,8 @@
 <div class="col-lg-12">
     <div class="panel panel-primary">
-        <div class="panel-heading"><b>
-          Tambah Data Visi Misi
-        </b></div>
+        <div class="panel-heading">
+          Tambah Data Carousel
+        </div>
         <div class="panel-body">
             <?php
             if (isset($error_upload)) {
@@ -11,22 +11,21 @@
             }
             echo validation_errors('<div class="alert alert-danger alert-dismissible">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>','</div>');
-           echo form_open_multipart('visiMisi/add');
+           echo form_open_multipart('carousel/add');
             ?>
                 
                 <div class="form-group">
-                    <label>Visi</label>
-                   <textarea name="visi" id="editor"  ></textarea>
+                    <label>Foto (format foto jpg/png/jpeg/gif dan ukuran maks. 5mb)</label>
+                    <input class="form-control" type="file" name="foto_carousel4" placeholder="Foto" required>
+                    <!-- <p class="help-block">Example block-level help text here.</p> -->
                 </div>
-            
                 <div class="form-group">
-                    <label>Misi </label>
-                   <textarea name="misi" id="edit1"  ></textarea>
+                    <label>Keterangan</label>
+                    <input class="form-control" type="text" name="keterangan4" placeholder="keterangan">
                 </div>
-              
-                <div class="form-group" >
+                              <div class="form-group" >
                     <button type="submit" class="btn btn-primary">Simpan</button> 
-                <!-- <button type="reset" class="btn btn-success">Reset</button></div> -->
+                <button type="reset" class="btn btn-success">Reset</button></div>
             
         </div>
 <?php echo form_close();?>

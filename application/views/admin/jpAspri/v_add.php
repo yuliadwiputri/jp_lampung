@@ -29,7 +29,7 @@
                     <input class="form-control" type="text" name="subjudul" placeholder="Subjudul">
                 </div>
                 <div class="form-group">
-                    <label>Deskripsi Singkat</label>
+                    <label>Info Singkat</label>
                    <textarea name="desc1" id="editor3"  ></textarea>
                 </div>
                 <div class="form-group">
@@ -51,12 +51,20 @@
                    <textarea name="berkas1" id="editor9"  ></textarea>
                 </div>
                 <div class="form-group">
-                 
-                   <textarea name="berkas2" id="editor10"  ></textarea>
+                <label>Keuntungan</label>
+                   <textarea name="keuntungan" id="editor10"  ></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Berkas</label>
-                   <textarea name="berkas3" id="editor11"  ></textarea>
+                    <label>Keuntungan 1</label>
+                   <textarea name="keuntungan1" id="editor11"  ></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Keuntungan 2</label>
+                   <textarea name="keuntungan2" id="editor12"  ></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Keuntungan 3</label>
+                   <textarea name="keuntungan3" id="editor"  ></textarea>
                 </div>
                 <div class="form-group" >
                     <button type="submit" class="btn btn-primary">Simpan</button> 

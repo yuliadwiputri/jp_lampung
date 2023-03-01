@@ -29,7 +29,7 @@
                     <input class="form-control" type="text" name="subjudul" placeholder="Subjudul">
                 </div>
                 <div class="form-group">
-                    <label>Deskripsi Singkat</label>
+                    <label>Info Singkat</label>
                    <textarea name="desc1" id="editor3"  ></textarea>
                 </div>
                 <div class="form-group">
@@ -37,23 +37,23 @@
                    <textarea name="desc2" id="editor4"  ></textarea>
                 </div>
                  <div class="form-group">
-                    <label>Berkas</label>
+                    <label>Kelengkapan Berkas Klaim (Big Bond)</label>
                    <textarea name="berkas1" id="editor9"  ></textarea>
                 </div>
                 <div class="form-group">
-                 
+                <label>Kelengkapan Berkas Klaim (Maintenance Bond)</label>
                    <textarea name="berkas2" id="editor10"  ></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Berkas</label>
+                    <label> <label>Kelengkapan Berkas Klaim (Performance Bond)</label></label>
                    <textarea name="berkas3" id="editor11"  ></textarea>
                 </div>
                 <div class="form-group">
-                   
+                <label>Kelengkapan Berkas Klaim (Advance Payment Bond)</label>
                    <textarea name="berkas4" id="editor6"  ></textarea>
                 </div>
                 <div class="form-group">
-                
+                <label > <label>Kelengkapan Berkas Klaim (Custom Bond)</label></label>
                    <textarea name="berkas5" id="editor7"  ></textarea>
                 </div>
                 <div class="form-group" >

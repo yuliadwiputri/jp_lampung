@@ -29,7 +29,7 @@
                     <input class="form-control" type="text" name="subjudul" placeholder="Subjudul">
                 </div>
                 <div class="form-group">
-                    <label>Deskripsi Singkat</label>
+                    <label>Info Singkat</label>
                    <textarea name="desc1" id="editor3"  ></textarea>
                 </div>
                 <div class="form-group">
@@ -41,6 +41,10 @@
                    <textarea name="lingkup" id="editor5"  ></textarea>
                 </div>
                 <div class="form-group">
+                    <label>ilustrasi </label>
+                   <textarea name="ilustrasi" id="editor"  ></textarea>
+                </div>
+                <div class="form-group">
                     <label>Resiko yang Dijamin </label>
                    <textarea name="jaminan" id="editor6"  ></textarea>
                 </div>
@@ -49,19 +53,19 @@
                    <textarea name="tidak_jaminan" id="editor7"  ></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Jenis Jaminan</label>
+                    <label>Jenis Jaminan Tambahan</label>
                    <textarea name="jenis" id="editor8"  ></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Berkas</label>
+                    <label>Berkas Klaim (Partial Loss)</label>
                    <textarea name="berkas1" id="editor9"  ></textarea>
                 </div>
                 <div class="form-group">
-                 
+                <label>Berkas Klaim (Total Loss)</label>
                    <textarea name="berkas2" id="editor10"  ></textarea>
                 </div>
                 <div class="form-group">
-                    <label>Berkas</label>
+                    <label>Berkas(Tuntutan Pihak Ketiga)</label>
                    <textarea name="berkas3" id="editor11"  ></textarea>
                 </div>
                 <div class="form-group" >

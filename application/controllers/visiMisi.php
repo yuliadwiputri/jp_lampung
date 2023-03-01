@@ -11,6 +11,7 @@ class visiMisi extends CI_Controller {
             redirect('auth');
         }
         $this->load->model('m_visiMisi');
+        $this->load->model('m_visiMisi2');
         
     }
     
@@ -20,6 +21,7 @@ class visiMisi extends CI_Controller {
                 'title' => 'Protector for Protection',
                 'title2' => 'Visi Misi JRP',
                'visiMisi' => $this->m_visiMisi->list(),
+               'visiMisi2' => $this->m_visiMisi2->list(),
                 'isi' => 'admin/visiMisi/v_list'
          );
             $this->load->view('admin/layout/v_wrapper',$data,FALSE);

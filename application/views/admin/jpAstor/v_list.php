@@ -1,10 +1,21 @@
 <div class="col-lg-12">
+
     <div class="panel panel-primary">
+    
+    
+        <div class="panel-heading">
+        <?php if (!empty($jpAstor)) {
+        echo '<a href="#" class="btn btn-primary disabled" ><i class="fa fa-plus"></i> Add</a>';
+    } else {
+    ?> <a href="<?= base_url('jpAstor/add1') ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> Add</a>
+    <?php } ?>
+    <?php
+    foreach ($jpAstor as $key => $v) {
+        
+    } ?>
     <?php $no = 1;
             foreach ($jpAstor as $key => $value) {
             ?>
-        <div class="panel-heading">
-            
                 <a href="<?= base_url('jpAstor/edit/' . $value->id_jpAstor) ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i> Edit </a>
                 <a href="<?= base_url('jpAstor/delete/' . $value->id_jpAstor) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
                 <!-- <a href="<?= base_url('jpAstor/add') ?>" class="btn btn-primary btn-sm" ><i class="fa fa-plus"></i> Add</a> -->

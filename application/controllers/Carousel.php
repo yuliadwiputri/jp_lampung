@@ -29,7 +29,50 @@ class Carousel extends CI_Controller
         );
         $this->load->view('admin/layout/v_wrapper', $data, FALSE);
     }
-
+    public function add1 (){
+        $data=array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+           
+        
+            'isi' => 'admin/carousel/v_add'
+            
+        );
+        $this->load->view('admin/layout/v_wrapper',$data,FALSE);
+    }
+    public function add12 (){
+        $data=array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+           
+        
+            'isi' => 'admin/carousel/v_add2'
+            
+        );
+        $this->load->view('admin/layout/v_wrapper',$data,FALSE);
+    }
+    public function add13 (){
+        $data=array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+           
+        
+            'isi' => 'admin/carousel/v_add3'
+            
+        );
+        $this->load->view('admin/layout/v_wrapper',$data,FALSE);
+    }
+    public function add14 (){
+        $data=array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+           
+        
+            'isi' => 'admin/carousel/v_add4'
+            
+        );
+        $this->load->view('admin/layout/v_wrapper',$data,FALSE);
+    }
     public function add()
     {
         $this->form_validation->set_rules('keterangan', 'Keterangan ', 'required', array('required' => '%s Harus Diisi'));
@@ -74,6 +117,144 @@ class Carousel extends CI_Controller
         );
         $this->load->view('admin/layout/v_wrapper', $data, FALSE);
     }
+
+    public function add2()
+    {
+        $this->form_validation->set_rules('keterangan2', 'Keterangan ', 'required', array('required' => '%s Harus Diisi'));
+
+
+        if ($this->form_validation->run() == TRUE) {
+            $config['upload_path']        = './foto_carousel2/';
+            $config['allowed_types']        = 'gif|jpg|png|jpeg';
+            $config['max_size']             = 5000;
+            $this->upload->initialize($config);
+            if (!$this->upload->do_upload('foto_carousel2')) {
+
+                $data = array(
+                    'title' => 'Protector for Protection',
+                    'title2' => '',
+                    'error' => $this->upload->display_errors(),
+
+                    'isi' => 'admin/carousel/v_add2'
+
+                );
+                $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+            } else {
+                $upload_data = array('uploads' => $this->upload->data());
+                $config['image_library'] = 'gd2';
+                $config['source_image'] = './foto_carousel2/' . $upload_data['uploads']['file_name'];
+                $this->load->library('image_lib', $config);
+                $data = array(
+                    'foto_carousel2' => $upload_data['uploads']['file_name'],
+                    'keterangan2' => $this->input->post('keterangan2'),
+
+                );
+                $this->m_carousel2->add($data);
+                $this->session->set_flashdata('pesan', 'Data Berhasil Ditambahkan');
+                redirect('carousel');
+            }
+        }
+        $data = array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+
+            'isi' => 'admin/carousel/v_add2'
+        );
+        $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+    }
+
+    public function add3()
+    {
+        $this->form_validation->set_rules('keterangan3', 'Keterangan ', 'required', array('required' => '%s Harus Diisi'));
+
+
+        if ($this->form_validation->run() == TRUE) {
+            $config['upload_path']        = './foto_carousel/';
+            $config['allowed_types']        = 'gif|jpg|png|jpeg';
+            $config['max_size']             = 5000;
+            $this->upload->initialize($config);
+            if (!$this->upload->do_upload('foto_carousel3')) {
+
+                $data = array(
+                    'title' => 'Protector for Protection',
+                    'title2' => '',
+                    'error' => $this->upload->display_errors(),
+
+                    'isi' => 'admin/carousel/v_add3'
+
+                );
+                $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+            } else {
+                $upload_data = array('uploads' => $this->upload->data());
+                $config['image_library'] = 'gd2';
+                $config['source_image'] = './foto_carousel3/' . $upload_data['uploads']['file_name'];
+                $this->load->library('image_lib', $config);
+                $data = array(
+                    'foto_carousel3' => $upload_data['uploads']['file_name'],
+                    'keterangan3' => $this->input->post('keterangan3'),
+
+                );
+                $this->m_carousel3->add($data);
+                $this->session->set_flashdata('pesan', 'Data Berhasil Ditambahkan');
+                redirect('carousel');
+            }
+        }
+        $data = array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+
+            'isi' => 'admin/carousel/v_add3'
+        );
+        $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+    }
+
+    public function add4()
+    {
+        $this->form_validation->set_rules('keterangan4', 'Keterangan ', 'required', array('required' => '%s Harus Diisi'));
+
+
+        if ($this->form_validation->run() == TRUE) {
+            $config['upload_path']        = './foto_carousel4/';
+            $config['allowed_types']        = 'gif|jpg|png|jpeg';
+            $config['max_size']             = 5000;
+            $this->upload->initialize($config);
+            if (!$this->upload->do_upload('foto_carousel4')) {
+
+                $data = array(
+                    'title' => 'Protector for Protection',
+                    'title2' => '',
+                    'error' => $this->upload->display_errors(),
+
+                    'isi' => 'admin/carousel/v_add4'
+
+                );
+                $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+            } else {
+                $upload_data = array('uploads' => $this->upload->data());
+                $config['image_library'] = 'gd2';
+                $config['source_image'] = './foto_carousel4/' . $upload_data['uploads']['file_name'];
+                $this->load->library('image_lib', $config);
+                $data = array(
+                    'foto_carousel4' => $upload_data['uploads']['file_name'],
+                    'keterangan4' => $this->input->post('keterangan4'),
+
+                );
+                $this->m_carousel4->add($data);
+                $this->session->set_flashdata('pesan', 'Data Berhasil Ditambahkan');
+                redirect('carousel');
+            }
+        }
+        $data = array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+
+            'isi' => 'admin/carousel/v_add4'
+        );
+        $this->load->view('admin/layout/v_wrapper', $data, FALSE);
+    }
+
+
+
 
 
     public function edit($id_carousel)

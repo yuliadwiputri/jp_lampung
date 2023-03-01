@@ -24,7 +24,17 @@ class jpAspri extends CI_Controller
         );
         $this->load->view('admin/layout/v_wrapper', $data, FALSE);
     }
-
+    public function add1 (){
+        $data=array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+           
+        
+            'isi' => 'admin/jpAspri/v_add'
+            
+        );
+        $this->load->view('admin/layout/v_wrapper',$data,FALSE);
+    }
     public function add()
     {
         $this->form_validation->set_rules('judul', 'Judul', 'required', array('required' => '%s Harus Diisi'));

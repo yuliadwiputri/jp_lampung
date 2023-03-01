@@ -29,7 +29,7 @@
                     <input class="form-control" type="text" name="subjudul" placeholder="Subjudul">
                 </div>
                 <div class="form-group">
-                    <label>Deskripsi Singkat</label>
+                    <label>Info Singkat</label>
                    <textarea name="desc1" id="editor3"  ></textarea>
                 </div>
                 <div class="form-group">
@@ -48,24 +48,28 @@
                     <label>Ruang Lingkup </label>
                    <textarea name="lingkup" id="editor8"  ></textarea>
                 </div>
+                <div class="form-group">
+                    <label>Ilustrasi </label>
+                   <textarea name="ilustrasi" id="editor"  ></textarea>
+                </div>
                  <div class="form-group">
-                    <label>Jaminan</label>
+                    <label>Jaminan Resiko Banjir</label>
                    <textarea name="jaminan1" id="editor9"  ></textarea>
                 </div>
                 <div class="form-group">
-                 
+                <label>Jaminan Resiko Teroris dan Sabotase</label>
                    <textarea name="jaminan2" id="editor10"  ></textarea>
                 </div>
                 <div class="form-group">
-                    <label>jaminan</label>
+                <label>Jaminan Resiko Gempa Bumi</label>
                    <textarea name="jaminan3" id="editor11"  ></textarea>
                 </div>
                 <div class="form-group">
-                   
+                <label>Jaminan Resiko Kebongkaran</label>
                    <textarea name="jaminan4" id="editor5"  ></textarea>
                 </div>
                 <div class="form-group">
-                
+                <label>Jaminan Property/Industry Risk</label>
                    <textarea name="jaminan5" id="editor13"  ></textarea>
                 </div>
                 <div class="form-group">

@@ -1,10 +1,20 @@
 <div class="col-lg-12">
     <div class="panel panel-primary">
-        <?php $no = 1;
+       
+            <div class="panel-heading">
+            <?php if (!empty($jpBonding)) {
+        echo '<a href="#" class="btn btn-primary disabled" ><i class="fa fa-plus"></i> Add</a>';
+    } else {
+    ?> <a href="<?= base_url('jpBonding/add1') ?>" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> Add</a>
+    <?php } ?>
+    <?php
+    foreach ($jpBonding as $key => $v) {
+        
+    } ?>
+            <?php $no = 1;
         foreach ($jpBonding as $key => $value) {
 
         ?>
-            <div class="panel-heading">
                 <!-- <a href="<?= base_url('jpBonding/add') ?>" class="btn btn-primary btn-sm" ><i class="fa fa-plus"></i> Add</a> -->
                 <a href="<?= base_url('jpBonding/edit/' . $value->id_jpBonding) ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i> Edit </a>
                 <a href="<?= base_url('jpBonding/delete/' . $value->id_jpBonding) ?>" onclick="return confirm('Apakah Data Akan Dihapus?')" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> Delete</a>
