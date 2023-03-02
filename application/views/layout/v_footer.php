@@ -27,7 +27,7 @@
 								<div class="footer_social">
 									<ul>
 										<!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<!-- <li><a href="lampung@jrp.co.id"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
 										<li><a href="https://www.instagram.com/jrp_branch_bandarlampung/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 										<li><a href="https://www.youtube.com/@jrp_lampung5849" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 										<!-- <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
