@@ -43,7 +43,7 @@
                                         <a class="small" href="<?= base_url('auth/forgotPassword'); ?>">Forgot Password ?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="<?= base_url('auth/registration'); ?>">Create an Account</a>
+                                        <!-- <a class="small" href="<?= base_url('auth/registration'); ?>">Create an Account</a> -->
                                         <br>
                                         <br>
                                         <br>
