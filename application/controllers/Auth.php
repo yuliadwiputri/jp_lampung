@@ -110,8 +110,8 @@ if($user['is_active']==1){
         $config=[
             'protocol'=>'smtp',
             'smtp_host'=>'ssl://smtp.googlemail.com',
-            'smtp_user'=>'lampung.jrp@gmail.com',
-            'smtp_pass'=>'mouuisxlfhbhkxkt',
+            'smtp_user'=>'jrp.lampung1500@gmail.com',
+            'smtp_pass'=>'owedoxewsjxyilhi',
             'smtp_port'=>465,
             'mailtype'=>'html',
             'charset'=>'utf-8',
@@ -120,7 +120,7 @@ if($user['is_active']==1){
         ];
         $this->load->library('email', $config);
         $this->email->initialize($config);
-        $this->email->from('lampung.jrp@gmail.com', 'Jasa Raharja Putera Lampung');
+        $this->email->from('jrp.lampung1500@gmail.com', 'Jasa Raharja Putera Lampung');
         $this->email->to($this->input->post('email'));
 
         if($type=='verify'){
@@ -194,7 +194,7 @@ if($user['is_active']==1){
                     
                 redirect('auth/forgotPassword');
             }else {
-                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">email is not registered or activated</div>');    
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">email is not registered</div>');    
     redirect('auth/forgotPassword');
             }
         }
