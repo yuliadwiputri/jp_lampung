@@ -1,7 +1,7 @@
 <div class="col-lg-12">
     <div class="panel panel-primary">
         <div class="panel-heading">
-          Tambah Data JP-BONDING
+          Tambah Data JP-Graha
         </div>
         <div class="panel-body">
             <?php

@@ -74,18 +74,24 @@ class jpAspri extends CI_Controller
                 $config['source_image'] = './foto_jpAspri/' . $upload_data['uploads']['file_name'];
                 $this->load->library('image_lib', $config);
                 $data = array(
-                    'foto_jpAspri' => $upload_data['uploads']['file_name'],
+                   
                     'judul' => $this->input->post('judul'),
                     'subjudul' => $this->input->post('subjudul'),
                     'desc1' => $this->input->post('desc1'),
                     'desc2' => $this->input->post('desc2'),
-                 
+                  
                     'kelebihan' => $this->input->post('kelebihan'),
                     'tidak_jaminan' => $this->input->post('tidak_jaminan'),
-              
+               
                     'berkas1' => $this->input->post('berkas1'),
-                    'berkas2' => $this->input->post('berkas2'),
-                    'berkas3' => $this->input->post('berkas3'),
+                    'keuntungan' => $this->input->post('keuntungan'),
+                    'keuntungan1' => $this->input->post('keuntungan1'),
+                    'keuntungan2' => $this->input->post('keuntungan2'),
+                    'keuntungan3' => $this->input->post('keuntungan3'),
+                    'foto_jpAspri' => $upload_data['uploads']['file_name']
+
+                  
+                  
 
 
                 );

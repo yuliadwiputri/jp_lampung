@@ -88,7 +88,17 @@ class Sejarah extends CI_Controller
         $this->load->view('admin/layout/v_wrapper', $data, FALSE);
     }
 
-
+    public function edit1 ($id){
+        $data=array(
+            'title' => 'Protector for Protection',
+            'title2' => '',
+         
+        'sejarah' => $this->m_sejarah->detail($id),
+            'isi' => 'admin/sejarah/v_edit'
+            
+        );
+        $this->load->view('admin/layout/v_wrapper',$data,FALSE);
+    }
     public function edit($id_sejarah)
     {
         $this->form_validation->set_rules('desc1', 'Deskripsi Sejarah', 'required', array('required' => '%s Harus Diisi'));
